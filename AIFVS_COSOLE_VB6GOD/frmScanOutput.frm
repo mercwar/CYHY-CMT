@@ -110,7 +110,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
 
-Public AOT As New clsAlwaysOnTop
+
 Private mActiveEditorHwnd As Long
 
 Private Sub CYHY_TIMER_Timer()
