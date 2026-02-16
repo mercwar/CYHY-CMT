@@ -44,6 +44,7 @@ Public Enum NAV_CMDS
     NAV_OPEN_EMBED = 2
     NAV_BOTH = 3
     NAV_EXIT = 20
+    NAV_OPEN_CYHY = 4
 End Enum
 
 ' ============================================================
@@ -71,9 +72,12 @@ Private Sub ShowNavPopup(ByVal hWnd As Long, ByVal X As Long, ByVal Y As Long)
 
     hMenu = CreatePopupMenu()
 
-    AppendMenu hMenu, MF_STRING, NAV_OPEN_HIDDEN, "Open Hidden Shell"
-    AppendMenu hMenu, MF_STRING, NAV_OPEN_EMBED, "Open Embedded Console"
+
+    AppendMenu hMenu, MF_STRING, NAV_OPEN_HIDDEN, "TERMINAL"
+    AppendMenu hMenu, MF_STRING, NAV_OPEN_EMBED, "SHELL"
     AppendMenu hMenu, MF_STRING, NAV_BOTH, "Open Both"
+    AppendMenu hMenu, MF_SEPARATOR, 0, vbNullString
+    AppendMenu hMenu, MF_STRING, NAV_OPEN_CYHY, "CYHY/MERG-G"
     AppendMenu hMenu, MF_SEPARATOR, 0, vbNullString
     AppendMenu hMenu, MF_STRING, NAV_EXIT, "Exit Navigator"
 
@@ -100,8 +104,16 @@ Private Sub HandleNavCommand(ByVal cmd As Long)
             If frmHiddenShell Is Nothing Then Load frmHiddenShell
             If frmEmbeddedConsole Is Nothing Then Load frmEmbeddedConsole
             frmHiddenShell.Show
+            DoEvents
             frmEmbeddedConsole.Show
-
+            DoEvents
+        Case NAV_OPEN_CYHY
+            Load frmScanOutput
+            frmScanOutput.Show
+            
+            AVIS_BUFF = "":
+            frmScanOutput.txtEditor.Text = AVIS_BUFF
+  
         Case NAV_EXIT
             Unload frmNavigator
 

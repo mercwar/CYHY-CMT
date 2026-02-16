@@ -1,39 +1,70 @@
 VERSION 5.00
 Object = "{3B7C8863-D78F-101B-B9B5-04021C009402}#1.2#0"; "RICHTX32.OCX"
 Begin VB.Form frmHiddenShell 
+   BorderStyle     =   3  'Fixed Dialog
    Caption         =   "GODLY AIFVS CMD Terminal"
-   ClientHeight    =   4935
-   ClientLeft      =   120
-   ClientTop       =   450
-   ClientWidth     =   9735
+   ClientHeight    =   4755
+   ClientLeft      =   105
+   ClientTop       =   435
+   ClientWidth     =   5685
    LinkTopic       =   "Form1"
-   ScaleHeight     =   4935
-   ScaleWidth      =   9735
-   StartUpPosition =   2  'CenterScreen
+   MaxButton       =   0   'False
+   MinButton       =   0   'False
+   ScaleHeight     =   4755
+   ScaleWidth      =   5685
+   ShowInTaskbar   =   0   'False
+   Begin VB.CommandButton Command1 
+      Caption         =   "POST"
+      Default         =   -1  'True
+      Height          =   375
+      Left            =   4800
+      TabIndex        =   2
+      Top             =   4320
+      Width           =   855
+   End
    Begin VB.Timer tmrPoll 
       Interval        =   100
-      Left            =   6960
-      Top             =   120
+      Left            =   3000
+      Top             =   2640
    End
    Begin RichTextLib.RichTextBox rtbConsole 
       Height          =   4170
       Left            =   120
       TabIndex        =   0
       Top             =   120
-      Width           =   7095
-      _ExtentX        =   12515
+      Width           =   5535
+      _ExtentX        =   9763
       _ExtentY        =   7355
       _Version        =   393217
+      Enabled         =   -1  'True
       ReadOnly        =   -1  'True
       ScrollBars      =   3
       TextRTF         =   $"frmAIFVSConsole.frx":0000
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "MS Sans Serif"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
    End
    Begin VB.TextBox txtInput 
-      Height          =   330
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   375
       Left            =   120
       TabIndex        =   1
-      Top             =   4380
-      Width           =   7095
+      Top             =   4320
+      Width           =   4575
    End
 End
 Attribute VB_Name = "frmHiddenShell"
@@ -54,11 +85,16 @@ Private Sub Form_Load()
 
     tmrPoll.Interval = 100
     tmrPoll.Enabled = True
-
+    
     AppendLine "AIFVS CMD Terminal"
     AppendLine "Hidden cmd.exe shell initialized."
     AppendLine ""
     AppendPrompt
+    
+    Me.Left = Screen.Width - Me.Width - 100
+    Me.Top = frmEmbeddedConsole.Height + frmEmbeddedConsole.Top + 100
+    Me.AutoRedraw = True
+   
 End Sub
 
 Private Sub Form_Resize()

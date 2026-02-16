@@ -9,7 +9,7 @@ Private Declare Function AppendMenu Lib "user32" Alias "AppendMenuA" _
 Private Declare Function TrackPopupMenu Lib "user32" _
     (ByVal hMenu As Long, ByVal uFlags As Long, _
      ByVal X As Long, ByVal Y As Long, _
-     ByVal nReserved As Long, ByVal hwnd As Long, _
+     ByVal nReserved As Long, ByVal hWnd As Long, _
      ByVal prcRect As Long) As Long
 
 Private Const MF_STRING = &H0&
@@ -30,19 +30,19 @@ Public Clip As clsClipControls
 
 Public CShell As New AIFVS_DOSShell
 
-Public Sub ShowClipPopupAtMouse(ByVal hwnd As Long, ByVal X As Long, ByVal Y As Long)
+Public Sub ShowClipPopupAtMouse(ByVal hWnd As Long, ByVal X As Long, ByVal Y As Long)
     Dim pt As POINTAPI
 
     pt.X = X
     pt.Y = Y
 'Dim t As Long
     ' Convert client ? screen
-    ClientToScreen hwnd, pt
+    ClientToScreen hWnd, pt
 
     ' Show the clip popup at the correct screen location
-    ShowClipPopup hwnd, pt.X, pt.Y
+    ShowClipPopup hWnd, pt.X, pt.Y
 End Sub
-Public Sub ShowClipPopup(ByVal hwnd As Long, ByVal X As Long, ByVal Y As Long)
+Public Sub ShowClipPopup(ByVal hWnd As Long, ByVal X As Long, ByVal Y As Long)
     Dim hMenu As Long
     Dim cmd As Long
 
@@ -55,7 +55,9 @@ Public Sub ShowClipPopup(ByVal hwnd As Long, ByVal X As Long, ByVal Y As Long)
     AppendMenu hMenu, MF_STRING, CM_CLEAR, "Clear"
     AppendMenu hMenu, MF_STRING, CM_SELALL, "Select All"
 
-    cmd = TrackPopupMenu(hMenu, TPM_RETURNCMD, X, Y, 0, hwnd, 0)
+
+
+    cmd = TrackPopupMenu(hMenu, TPM_RETURNCMD, X, Y, 0, hWnd, 0)
 
     If cmd <> 0 Then HandleClipCommand cmd
 End Sub
@@ -66,14 +68,14 @@ End Sub
 ' AIFVS COORDINATE CONVERTER
 ' MAKECOORD: Converts client (X,Y) ? screen POINTAPI
 ' ============================================================
-Public Function MakeCoord(ByVal hwnd As Long, ByVal X As Long, ByVal Y As Long) As POINTAPI
+Public Function MakeCoord(ByVal hWnd As Long, ByVal X As Long, ByVal Y As Long) As POINTAPI
     Dim pt As POINTAPI
 
     pt.X = X
     pt.Y = Y
 
     ' Convert client ? screen
-    ClientToScreen hwnd, pt
+    ClientToScreen hWnd, pt
 
     MakeCoord = pt
 End Function

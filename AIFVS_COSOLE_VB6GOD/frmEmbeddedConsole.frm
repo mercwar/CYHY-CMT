@@ -5,38 +5,42 @@ Begin VB.Form frmEmbeddedConsole
    ClientHeight    =   5175
    ClientLeft      =   60
    ClientTop       =   345
-   ClientWidth     =   7740
+   ClientWidth     =   7845
    KeyPreview      =   -1  'True
    LinkTopic       =   "frmEmbeddedConsole"
    ScaleHeight     =   345
    ScaleMode       =   3  'Pixel
-   ScaleWidth      =   516
-   StartUpPosition =   2  'CenterScreen
+   ScaleWidth      =   523
+   Begin VB.Timer Timer1 
+      Interval        =   100
+      Left            =   240
+      Top             =   2640
+   End
+   Begin VB.PictureBox picHost 
+      Height          =   1455
+      Left            =   1440
+      ScaleHeight     =   93
+      ScaleMode       =   3  'Pixel
+      ScaleWidth      =   141
+      TabIndex        =   0
+      Top             =   600
+      Width           =   2175
+   End
    Begin VB.PictureBox picOverlay 
       Appearance      =   0  'Flat
+      AutoRedraw      =   -1  'True
       BackColor       =   &H00FFFFFF&
       BorderStyle     =   0  'None
       DrawStyle       =   5  'Transparent
       ForeColor       =   &H80000008&
-      Height          =   1935
-      Left            =   600
-      ScaleHeight     =   129
-      ScaleMode       =   3  'Pixel
-      ScaleWidth      =   473
-      TabIndex        =   1
-      Top             =   0
-      Width           =   7095
-   End
-   Begin VB.PictureBox picHost 
-      AutoRedraw      =   -1  'True
       Height          =   2415
-      Left            =   120
-      ScaleHeight     =   157
+      Left            =   5160
+      ScaleHeight     =   161
       ScaleMode       =   3  'Pixel
-      ScaleWidth      =   453
-      TabIndex        =   0
-      Top             =   2040
-      Width           =   6855
+      ScaleWidth      =   177
+      TabIndex        =   1
+      Top             =   120
+      Width           =   2655
    End
 End
 Attribute VB_Name = "frmEmbeddedConsole"
@@ -46,7 +50,6 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 
 Option Explicit
-
 ' ============================================================
 ' AIFVS REGISTRATION
 ' ARTIFACT:   AIFVS_FORM_EMBEDDED_CONSOLE
@@ -57,52 +60,50 @@ Option Explicit
 ' ============================================================
 
 Private Sub Form_Load()
- 
-    ' Initialize and embed the console into picHost
-    InitEmbeddedConsole picHost.hWnd
-    DoEvents
-    
     Me.ScaleMode = vbPixels
     picHost.ScaleMode = vbPixels
     picOverlay.ScaleMode = vbPixels
-    
-    ' Resize the console to fill the host area
-    picHost.Move 0, 0, picHost.ScaleWidth, picHost.ScaleWidth
-    picOverlay.Move 0, 0, picHost.ScaleWidth - 20, picHost.ScaleWidth
-    picOverlay.ZOrder 0
-    ResizeEmbeddedConsole g_hConsole, Me.ScaleWidth, Me.ScaleHeight
-    Dim ret As Long
-    ret = SetWindowLong(picOverlay.hWnd, GWL_EXSTYLE, WS_EX_TRANSPARENT)
 
-    ' Launch cmd.exe; it will attach to this process's console
+    ' Position host + overlay
+    picHost.Move 0, 0, Me.ScaleWidth, Me.ScaleHeight
+    picOverlay.Move 0, 0, Me.ScaleWidth - 24, Me.ScaleHeight
+
+    ' Position window
+    Me.Left = Screen.Width - Me.Width - 100
+    Me.Top = 400 + Me.Top
+
+    ' --- ORDER FIX: console must be created BEFORE resize ---
+    InitEmbeddedConsole picHost.hWnd
+
+    ' Now that g_hConsole exists, resize it properly
+    ResizeEmbeddedConsole g_hConsole, picHost.ScaleWidth, picHost.ScaleHeight
+
+    ' Launch CMD after console is embedded
     Shell "cmd.exe", vbNormalFocus
 End Sub
 
 
-
 Private Sub Form_Resize()
-    On Error Resume Next
+    If Me.WindowState = vbMinimized Then Exit Sub
 
     Me.ScaleMode = vbPixels
     picHost.ScaleMode = vbPixels
     picOverlay.ScaleMode = vbPixels
 
-    picHost.Move 0, 0, Me.ScaleWidth - 0, Me.ScaleHeight
+    ' Resize host + overlay
+    picHost.Move 0, 0, Me.ScaleWidth, Me.ScaleHeight
     picOverlay.Move 0, 0, Me.ScaleWidth - 24, Me.ScaleHeight
-    picOverlay.ZOrder 0
-    ResizeEmbeddedConsole g_hConsole, Me.ScaleWidth, Me.ScaleHeight
 
+    ' Resize embedded console to match host
+    If g_hConsole <> 0 Then
+        ResizeEmbeddedConsole g_hConsole, picHost.ScaleWidth, picHost.ScaleHeight
+    End If
 End Sub
+
 
 Private Sub Form_Unload(Cancel As Integer)
     ShutdownEmbeddedConsole
 End Sub
-
-
-
-
-
-
 
 Private Sub picHost_KeyPress(KeyAscii As Integer)
 'SendKeys KeyAscii
@@ -130,4 +131,9 @@ Private Sub picOverlay_MouseUp(Button As Integer, Shift As Integer, X As Single,
         ShowClipPopupAtMouse picOverlay.hWnd, X, Y
     End If
 
+End Sub
+
+Private Sub Timer1_Timer()
+Timer1 = False
+Me.Width = Me.Width + 1
 End Sub

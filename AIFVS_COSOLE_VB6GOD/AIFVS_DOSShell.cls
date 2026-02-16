@@ -12,7 +12,7 @@ Attribute VB_Creatable = True
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
-Private Declare Function GetWindow Lib "user32" (ByVal hwnd As Long, ByVal wCmd As Long) As Long
+Private Declare Function GetWindow Lib "user32" (ByVal hWnd As Long, ByVal wCmd As Long) As Long
  Const GW_OWNER = 4
  Const GW_MAX = 5
  Const GW_HWNDPREV = 3
@@ -22,14 +22,11 @@ Private Declare Function GetWindow Lib "user32" (ByVal hwnd As Long, ByVal wCmd 
  Const GW_CHILD = 5
 
 Private Declare Function GetConsoleWindow Lib "kernel32" () As Long
-Private Declare Function ShowWindow Lib "user32" (ByVal hwnd As Long, ByVal nCmdShow As Long) As Long
+Private Declare Function ShowWindow Lib "user32" (ByVal hWnd As Long, ByVal nCmdShow As Long) As Long
 
 Private Const SW_HIDE As Long = 0
 
 Dim hConsole As Long
-
-
-
 
 Private Type SECURITY_ATTRIBUTES
     nLength As Long

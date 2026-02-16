@@ -3,7 +3,7 @@ Option Explicit
 Public Const GWL_STYLE = (-16)
 Public Const GWL_EXSTYLE = (-20)
 Public Const WS_EX_TRANSPARENT = &H20&
-Public Declare Function SetWindowLong Lib "user32" Alias "SetWindowLongA" (ByVal HWND As Long, ByVal nIndex As Long, ByVal dwNewLong As Long) As Long
+Public Declare Function SetWindowLong Lib "user32" Alias "SetWindowLongA" (ByVal hWnd As Long, ByVal nIndex As Long, ByVal dwNewLong As Long) As Long
 ' --- Console allocation ---
 Private Declare Function AllocConsole Lib "kernel32" () As Long
 Private Declare Function FreeConsole Lib "kernel32" () As Long
@@ -14,17 +14,17 @@ Private Declare Function SetParent Lib "user32" _
     (ByVal hWndChild As Long, ByVal hWndNewParent As Long) As Long
 
 Private Declare Function MoveWindow Lib "user32" _
-    (ByVal HWND As Long, ByVal X As Long, ByVal Y As Long, _
+    (ByVal hWnd As Long, ByVal X As Long, ByVal Y As Long, _
      ByVal nWidth As Long, ByVal nHeight As Long, _
      ByVal bRepaint As Long) As Long
 
 Private Declare Function ShowWindow Lib "user32" _
-    (ByVal HWND As Long, ByVal nCmdShow As Long) As Long
+    (ByVal hWnd As Long, ByVal nCmdShow As Long) As Long
 
 Private Const SW_SHOW As Long = 5
 Private Const SW_HIDE As Long = 0
 Private Declare Function GetWindowLong Lib "user32" Alias "GetWindowLongA" _
-    (ByVal HWND As Long, ByVal nIndex As Long) As Long
+    (ByVal hWnd As Long, ByVal nIndex As Long) As Long
 
 
 
@@ -56,7 +56,7 @@ Public Sub InitEmbeddedConsole(ByVal hHost As Long)
 
     ' Allocate a console for this process
     ret = AllocConsole()
-
+    
     ' Get the console window handle
     g_hConsole = GetConsoleWindow()
     If g_hConsole = 0 Then Exit Sub
@@ -72,9 +72,9 @@ End Sub
 ' ============================================================
 ' Resize the embedded console to match the host area
 ' ============================================================
-Public Sub ResizeEmbeddedConsole(HWND As Long, ByVal w As Long, ByVal h As Long)
-    If HWND <> 0 Then
-        MoveWindow HWND, 0, 0, w, h, 1
+Public Sub ResizeEmbeddedConsole(hWnd As Long, ByVal w As Long, ByVal h As Long)
+    If hWnd <> 0 Then
+        MoveWindow hWnd, 0, 0, w, h, 1
     End If
 End Sub
 

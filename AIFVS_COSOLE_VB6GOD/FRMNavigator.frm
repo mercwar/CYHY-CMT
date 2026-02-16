@@ -1,13 +1,17 @@
 VERSION 5.00
 Begin VB.Form frmNavigator 
+   BorderStyle     =   3  'Fixed Dialog
    Caption         =   "GODLY AIFVS Navigator"
    ClientHeight    =   2340
-   ClientLeft      =   60
-   ClientTop       =   345
+   ClientLeft      =   45
+   ClientTop       =   330
    ClientWidth     =   7065
    LinkTopic       =   "frmNavigator"
+   MaxButton       =   0   'False
+   MinButton       =   0   'False
    ScaleHeight     =   2340
    ScaleWidth      =   7065
+   ShowInTaskbar   =   0   'False
    StartUpPosition =   2  'CenterScreen
    Begin VB.TextBox Text1 
       Alignment       =   2  'Center
@@ -47,6 +51,17 @@ Private Sub Form_MouseUp(Button As Integer, Shift As Integer, X As Single, Y As 
 End Sub
 
 Private Sub Form_Unload(Cancel As Integer)
-    Nav_Terminate
+    On Error Resume Next
+
+    If FormNameLoaded("frmScanOutput") Then
+        frmScanOutput.CYHY_TIMER.Enabled = False
+    End If
+
+    CYHY_TIMER_CLOSE = True
+
+    Load frmUnload
+    frmUnload.Visible = True
+
+    On Error GoTo 0
 End Sub
 
