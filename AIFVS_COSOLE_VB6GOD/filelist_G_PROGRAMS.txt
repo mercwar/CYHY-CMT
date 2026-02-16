@@ -1,0 +1,5 @@
+G:\PROGRAMS\darkstar\Cyborg BrowserX\datalake\system\logs\boot.log
+G:\PROGRAMS\darkstar\Cyborg BrowserX\datalake\system\logs\browser.log
+G:\PROGRAMS\darkstar\Cyborg BrowserX\datalake\system\logs\crash.log
+G:\PROGRAMS\darkstar\Cyborg BrowserX\datalake\system\logs\shutdown.log
+G:\PROGRAMS\darkstar\Cyborg BrowserX\datalake\system\logs\startup.log
