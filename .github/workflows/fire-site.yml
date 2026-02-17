@@ -17,15 +17,17 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Prep Root Environment
+      - name: Prep and Run Site Strike
         run: |
-          # Ensure scripts exist and are executable
-          if [ -f "./fire-site.sh" ]; then chmod +x ./fire-site.sh; fi
-          if [ -f "./fire-end.sh" ]; then chmod +x ./fire-end.sh; fi
+          # Grant permissions to both scripts
+          chmod +x ./fire-site.sh ./fire-end.sh
+          
+          # Explicitly run the site script first to ensure root setup
+          ./fire-site.sh
         shell: bash
 
       - name: Run Fire-End Strike
         run: |
-          # Ensure we run from the correct path
+          # Now run the end strike which finishes the job
           ./fire-end.sh
         shell: bash
