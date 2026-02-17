@@ -15,7 +15,6 @@ Begin VB.Form frmHiddenShell
    ShowInTaskbar   =   0   'False
    Begin VB.CommandButton Command1 
       Caption         =   "POST"
-      Default         =   -1  'True
       Height          =   375
       Left            =   4800
       TabIndex        =   2
@@ -36,7 +35,6 @@ Begin VB.Form frmHiddenShell
       _ExtentX        =   9763
       _ExtentY        =   7355
       _Version        =   393217
-      Enabled         =   -1  'True
       ReadOnly        =   -1  'True
       ScrollBars      =   3
       TextRTF         =   $"frmAIFVSConsole.frx":0000
@@ -76,6 +74,21 @@ Attribute VB_Exposed = False
 Option Explicit
 
 
+
+Private Sub Command1_Click()
+    
+        Dim cmd As String
+        cmd = Trim$(txtInput.Text)
+
+        If Len(cmd) > 0 Then
+            AppendLine "> " & cmd
+            CShell.SendCommand cmd
+        End If
+
+        txtInput.Text = ""
+       
+   
+End Sub
 
 Private Sub Form_Load()
     rtbConsole.Text = ""

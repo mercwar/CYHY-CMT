@@ -1,10 +1,10 @@
 AIFVS_DOSShell = 26, 26, 1002, 358, 
-frmHiddenShell = 78, 78, 1054, 410, , 52, 52, 1028, 384, C
+frmHiddenShell = 78, 78, 1054, 410, Z, 52, 52, 1028, 384, C
 modEmbeddedConsole = 104, 104, 1096, 436, 
 clsClipControls = 78, 78, 1070, 410, 
 ModPopupMenu = 104, 104, 1096, 436, 
 ModNAVPOPUP = 78, 78, 1070, 410, 
-frmEmbeddedConsole = 130, 130, 1122, 462, Z, 104, 104, 1096, 436, C
+frmEmbeddedConsole = 130, 130, 1122, 462, , 104, 104, 1096, 436, C
 frmNavigator = 78, 78, 1070, 410, , 104, 104, 1096, 543, C
 modConCleaner = 130, 130, 1122, 462, 
 modCYHY = 331, 265, 1011, 851, 
@@ -22,3 +22,4 @@ clsAVIS_Scan = 130, 130, 815, 709,
 frmUnload = 312, 164, 997, 743, , 260, 260, 945, 839, C
 clsCVBGOD_vb6 = 130, 130, 815, 709, 
 modCVBGOD_vb6 = 104, 104, 789, 683, 
+ModAVIS_Scan = 234, 234, 995, 828, 
