@@ -1,4 +1,4 @@
-name: Joe Tron SITE MAP
+name: Joe Tron Root Strike
 
 on:
   push:
@@ -6,19 +6,23 @@ on:
   workflow_dispatch:
 
 jobs:
-  fire-end-strike:
+  fire-dispatch:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # CRITICAL: Allows the script's git push to succeed
+      contents: write
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Required for the script's git rebase and history logic
+          fetch-depth: 0
 
-      - name: Execute Joe Tron Pulse
+      - name: Prep Root Environment
         run: |
-          chmod +x fire-end.sh
-          ./fire-end.sh
+          # Force root directory preparation
+          mkdir -p "./"
+          chmod +x fire-site.sh fire-end.sh
+
+      - name: Run Fire-End Strike
+        run: ./fire-end.sh
         shell: bash
