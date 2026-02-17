@@ -1,0 +1,30 @@
+name: AVIS-BOT Fire-Site Sitemap
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allows manual run from the Actions tab
+
+jobs:
+  sitemap-strike:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Essential for pushing the generated sitemap back to the repo
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Ensures git config has the data your script needs
+
+      - name: Execute fire-site Strike
+        run: |
+          chmod +x fire-site.sh
+          ./fire-site.sh
+        shell: bash
+
+      - name: Commit and Push Sitemap
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "[AVIS-BOT] Sitemap Strike Complete: fire-site updated. HAHA!"
+          file_pattern: 'sitemap.xml "fire-gem.log"'
