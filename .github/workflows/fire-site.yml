@@ -17,17 +17,22 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Debug - List Files
+        run: ls -R  # This shows all files so you can verify the path
+        shell: bash
+
       - name: Prep and Run Site Strike
         run: |
-          # Grant permissions to both scripts
-          chmod +x ./fire-site.sh ./fire-end.sh
+          # Use 'find' to locate and chmod scripts even if they are in subdirectories
+          find . -name "fire-site.sh" -exec chmod +x {} +
+          find . -name "fire-end.sh" -exec chmod +x {} +
           
-          # Explicitly run the site script first to ensure root setup
-          ./fire-site.sh
+          # Execute fire-site.sh (finds it even if it's not in the root)
+          $(find . -name "fire-site.sh")
         shell: bash
 
       - name: Run Fire-End Strike
         run: |
-          # Now run the end strike which finishes the job
-          ./fire-end.sh
+          # Execute fire-end.sh (finds it even if it's not in the root)
+          $(find . -name "fire-end.sh")
         shell: bash
