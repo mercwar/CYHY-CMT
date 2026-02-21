@@ -12,46 +12,44 @@ jobs:
     permissions:
       contents: write
       pages: write
-      id-token: write       # REQUIRED: Explicit write for portal identity
+      id-token: write
 
     steps:
       - name: Checkout Root
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0    # REQUIRED: Fetch full history for rebase sync
+          fetch-depth: 0
           submodules: recursive
 
-      # 2️⃣ Install unzip
       - name: Install unzip
         run: sudo apt-get update && sudo apt-get install -y unzip
 
-      # 3️⃣ Unzip directly inside existing Beacon folder
+      # 3️⃣ MATERIALIZE: Using HYPHENated filename found in ls output
       - name: Materialize Beacon
         run: |
-          # MATCHING FILENAME: CYHY-CMT.zip (Hyphenated per ls output)
           if [ -f "CYHY-CMT.zip" ]; then
-            sudo unzip -o CYHY-CMT.zip -d /
-            echo "BASH: [ACK] Scroll extracted inside Beacon/."
+            # Extracting into the current workspace (.) to ensure git can see it
+            unzip -o CYHY-CMT.zip -d .
+            echo "BASH: [ACK] Scroll extracted inside workspace."
           else
             echo "BASH: [NACK] CYHY-CMT.zip not found at $GITHUB_WORKSPACE"
             ls -R
             exit 1
           fi
 
-
-      # 4️⃣ Commit + Push
+      # 4️⃣ PORTAL SYNC: Commit extracted files (AIFVS_COSOLE_VB6GOD, etc.)
       - name: Commit Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-         
-          git add / || echo "adding repo folder."
+          # Add the extracted folder found in your directory listing
+          git add AIFVS_COSOLE_VB6GOD/ 
+          git add CY_ENGINE.log || true
 
           if ! git diff --staged --quiet; then
-            git commit -m "AVIS: Beacon Scroll Materialized"
-            # Rebase to handle autonomous pulses from other nodes
+            git commit -m "AVIS: Beacon Materialized [Pulse]"
             git pull --rebase -X ours origin main 
             git push origin main
             echo "wm_macro_ack: Portal Sync Successful."
