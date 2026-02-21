@@ -25,11 +25,11 @@ jobs:
       - name: Install unzip
         run: sudo apt-get update && sudo apt-get install -y unzip
 
-      # 3️⃣ MATERIALIZE: Using HYPHENated filename found in ls output
+      # 3️⃣ MATERIALIZE: Matching the physical file: CYHY-CMT.zip
       - name: Materialize Beacon
         run: |
           if [ -f "CYHY-CMT.zip" ]; then
-            # Extracting into the current workspace (.) to ensure git can see it
+            # Extract to current workspace (.) so git can see the files
             unzip -o CYHY-CMT.zip -d .
             echo "BASH: [ACK] Scroll extracted inside workspace."
           else
@@ -38,18 +38,18 @@ jobs:
             exit 1
           fi
 
-      # 4️⃣ PORTAL SYNC: Commit extracted files (AIFVS_COSOLE_VB6GOD, etc.)
+      # 4️⃣ PORTAL SYNC: Push the actual extracted data
       - name: Commit Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Add the extracted folder found in your directory listing
-          git add AIFVS_COSOLE_VB6GOD/ 
-          git add CY_ENGINE.log || true
+          # Use dot to add only the real files inside the repository
+          git add .
 
           if ! git diff --staged --quiet; then
             git commit -m "AVIS: Beacon Materialized [Pulse]"
+            # Rebase to keep autonomous sync clean
             git pull --rebase -X ours origin main 
             git push origin main
             echo "wm_macro_ack: Portal Sync Successful."
