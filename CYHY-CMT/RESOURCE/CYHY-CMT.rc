@@ -1,0 +1,34 @@
+﻿/*
+AVIS:
+    artifact: CYHY-CMT.rc
+    role: resource-script
+    family: cyhy-cmt
+    version: 1.3
+*/
+
+#include <windows.h>
+#include "resource.h"
+
+IDR_MAINMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Open &Directory...", ID_FILE_OPEN_DIR
+        MENUITEM "Open &File...",      ID_FILE_OPEN
+        MENUITEM "&Save",              ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",              ID_FILE_EXIT
+    END
+
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Auto Save", ID_OPTIONS_AUTOSAVE, CHECKED
+    END
+
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "Open MERCG...", ID_TOOLS_MERCG
+    END
+
+
+END

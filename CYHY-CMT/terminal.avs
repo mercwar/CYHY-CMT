@@ -1,0 +1,6 @@
+AVIS: sentinel001-ai-gf-avis-fvs-cbord-terminal
+file=terminal.c
+path=src/
+role=terminal
+platform=win64
+family=cbord

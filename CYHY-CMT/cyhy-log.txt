@@ -1,0 +1,88 @@
+[06:30:13] [INFO] [CORE] Terminal System Link: Established.
+[06:30:13] [AVIS] [CORE] Host Environment: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[06:30:13] [INFO] [SCAN] Opening project directory: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[06:30:13] [AVIS] [SCAN] Crawl complete. Indexed 26 workspace files.
+[06:30:13] [INFO] [MERCG] Workspace root set to: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[06:30:13] [INFO] [MERCG] Loading Factory Default ACIT Template...
+[06:30:13] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\factory\acit.txt
+[06:30:13] [FAIL] [FIO] Access Denied/Not Found: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\factory\acit.txt (Win32 Err: 3)
+[06:30:13] [FAIL] [MERCG] CRITICAL: Factory ACIT template missing at D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\factory\acit.txt
+[06:30:13] [INFO] [CORE] Project Scanner: Active.
+[06:30:13] [INFO] [CORE] CYHY WinMain initialized.
+[06:30:15] [AVIS] [MERCG] Opening MERC-G Inspector...
+[06:30:15] [INFO] [MERCG] MERC-G Inspector Terminal Initialized.
+[06:30:17] [INFO] [SCAN] Rebuilding AVIS Tree...
+[06:30:17] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:17] [AVIS] [FIO] Physical file size: 134 bytes
+[06:30:17] [AVIS] [FIO] Successfully read 134 bytes into workspace.
+[06:30:17] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:17] [AVIS] [FIO] Physical file size: 103 bytes
+[06:30:17] [AVIS] [FIO] Successfully read 103 bytes into workspace.
+[06:30:17] [AVIS] [SCAN] Tree Population Complete.
+[06:30:18] [INFO] [MERCG] Loading Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:18] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:18] [AVIS] [FIO] Physical file size: 134 bytes
+[06:30:18] [AVIS] [FIO] Successfully read 134 bytes into workspace.
+[06:30:18] [AVIS] [MERCG] Active Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:18] [AVIS] [MERCG] Full multi-line buffer sync successful: 134 bytes.
+[06:30:20] [INFO] [MERCG] Loading Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:20] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:21] [AVIS] [FIO] Physical file size: 103 bytes
+[06:30:21] [AVIS] [FIO] Successfully read 103 bytes into workspace.
+[06:30:21] [AVIS] [MERCG] Active Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:21] [AVIS] [MERCG] Full multi-line buffer sync successful: 103 bytes.
+[06:30:21] [INFO] [MERCG] AI Search Result Updated: Family
+[06:30:24] [INFO] [MERCG] Loading Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:24] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:24] [AVIS] [FIO] Physical file size: 134 bytes
+[06:30:24] [AVIS] [FIO] Successfully read 134 bytes into workspace.
+[06:30:24] [AVIS] [MERCG] Active Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:24] [AVIS] [MERCG] Full multi-line buffer sync successful: 134 bytes.
+[06:30:25] [INFO] [MERCG] Loading Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:25] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:25] [AVIS] [FIO] Physical file size: 103 bytes
+[06:30:25] [AVIS] [FIO] Successfully read 103 bytes into workspace.
+[06:30:25] [AVIS] [MERCG] Active Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:26] [AVIS] [MERCG] Full multi-line buffer sync successful: 103 bytes.
+[06:30:27] [INFO] [MERCG] AI Search Result Updated: Family
+[06:30:28] [INFO] [MERCG] AI Search Result Updated: Role
+[06:30:29] [INFO] [MERCG] Loading Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:29] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:29] [AVIS] [FIO] Physical file size: 103 bytes
+[06:30:29] [AVIS] [FIO] Successfully read 103 bytes into workspace.
+[06:30:29] [AVIS] [MERCG] Active Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:29] [AVIS] [MERCG] Full multi-line buffer sync successful: 103 bytes.
+[06:30:41] [INFO] [MERCG] Manual load: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:41] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:41] [AVIS] [FIO] Physical file size: 134 bytes
+[06:30:41] [AVIS] [FIO] Successfully read 134 bytes into workspace.
+[06:30:41] [AVIS] [MERCG] Active Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:46] [INFO] [MERCG] Closing Inspector.
+[06:30:54] [AVIS] [MERCG] Opening MERC-G Inspector...
+[06:30:54] [INFO] [MERCG] MERC-G Inspector Terminal Initialized.
+[06:30:55] [INFO] [SCAN] Rebuilding AVIS Tree...
+[06:30:55] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[06:30:55] [AVIS] [FIO] Physical file size: 134 bytes
+[06:30:55] [AVIS] [FIO] Successfully read 134 bytes into workspace.
+[06:30:55] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:55] [AVIS] [FIO] Physical file size: 103 bytes
+[06:30:55] [AVIS] [FIO] Successfully read 103 bytes into workspace.
+[06:30:55] [AVIS] [SCAN] Tree Population Complete.
+[06:30:56] [INFO] [MERCG] Loading Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:56] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:56] [AVIS] [FIO] Physical file size: 103 bytes
+[06:30:56] [AVIS] [FIO] Successfully read 103 bytes into workspace.
+[06:30:56] [AVIS] [MERCG] Active Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[06:30:56] [AVIS] [MERCG] Full multi-line buffer sync successful: 103 bytes.
+[06:31:08] [INFO] [MERCG] Closing Inspector.
+[06:31:18] [INFO] [UI] Toggle Auto-Scanner.
+[06:31:18] [INFO] [AUTO] Background Scanner ENABLED. Pulse rate: 500ms.
+[06:31:19] [INFO] [FIO] Loading AVIS: terminal.avs
+[06:31:19] [AVIS] [FIO] Loaded 122 bytes into workspace.
+[06:31:19] [INFO] [AUTO] AVIS detected in terminal.avs - Heartbeat active.
+[06:31:19] [AVIS] [AUTO] Pulse complete: Workspace buffer synchronized.
+[06:31:19] [WARN] [VALID] No COORD tag detected in buffer.
+[06:31:19] [FAIL] [AUTO] Validation Failed: No COORD in AVIS buffer. Stopping Timer.
+[06:31:23] [INFO] [OPTS] AutoSave state changed to: ENABLED
+[06:31:24] [INFO] [OPTS] AutoSave state changed to: DISABLED
+[06:31:29] [INFO] [CORE] Shutting down AVIS Terminal.
