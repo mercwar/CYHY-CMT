@@ -1,0 +1,54 @@
+name: FIRE-CYHY-MERC-G-UNZIP
+
+on:
+  workflow_run:
+    workflows: ["Fire-Gem AVIS Engine"]
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  unzip-beacon:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    permissions:
+      contents: write
+
+    steps:
+      # 1️⃣ Checkout Sentinel Repo (root is Sentinel)
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2️⃣ Install unzip
+      - name: Install unzip
+        run: sudo apt-get update && sudo apt-get install -y unzip
+
+      # 3️⃣ Unzip directly inside existing Beacon folder
+      - name: Materialize Beacon
+        run: |
+
+          if [ -f "CYHY_CMT.zip" ]; then
+            unzip -o CYHY_CMT.zip -d /
+            echo "BASH: [ACK] Scroll extracted inside Beacon/."
+          else
+            echo "BASH: [NACK] CYHY_CMT.zip not found."
+            exit 1
+          fi
+
+      # 4️⃣ Commit + Push
+      - name: Commit Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Beacon/
+
+          if ! git diff --staged --quiet; then
+            git commit -m "AVIS: Beacon Scroll Materialized"
+            git pull --rebase -X ours origin main
+            git push origin main
+            echo "wm_macro_ack: Portal Sync Successful."
+          else
+            echo "AVIS: No changes detected."
+          fi
