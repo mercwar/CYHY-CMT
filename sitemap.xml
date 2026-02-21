@@ -1,52 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/readme.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE.zip</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/fire-end.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AVIS_PRJ_SCAN.BAT</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/sitemap.xml</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/fire-site.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/.github/workflows/fire-site.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/fire-end.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.vbw</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modMERCG.bas</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/FRMNavigator.frx</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmUnload.frm</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModPopupMenu.bas</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmAIFVSConsole.frx</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModNAVPOPUP.bas</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/filelist_G_PROGRAMS.BAT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsAVIS_Scan.cls</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_COSOLE_VB6GOD.7z</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModAVIS_Scan.bas</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.vbp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/FRMNavigator.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modMERCG.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD_vb6.cls</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmMercG.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.vbw</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/filelist_G_PROGRAMS.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modEmbeddedConsole.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.exe</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/VB6-COPY.bat</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsAVISFocusScanner.cls</loc>
@@ -55,13 +61,49 @@
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modConCleaner.bas</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD_vb6.cls</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/FRMNavigator.frx</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/VB6-COPY.bat</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/filelist_G_PROGRAMS.BAT</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmMercG.frm</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CY_ENGINE.log</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsClipControls.cls</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_DOSShell.cls</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modCVBGOD_vb6.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE.vbp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmEmbeddedConsole.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AVIS_DRIVE</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE.vbw</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmScanOutput.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmUnload.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AVIS_LOG.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmAIFVSConsole.frm</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD_CONSOLE.exe.manifest</loc>
@@ -70,63 +112,24 @@
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/App</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.exe</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModNAVPOPUP.bas</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AVIS_DRIVE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/FRMNavigator.frm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE.vbw</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/filelist_G_PROGRAMS.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CY_ENGINE.log</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE.vbp</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modCVBGOD_vb6.bas</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.vbp</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmScanOutput.frm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_DOSShell.cls</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AVIS_LOG.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModPopupMenu.bas</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmAIFVSConsole.frm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modEmbeddedConsole.bas</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsClipControls.cls</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsAVIS_Scan.cls</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmEmbeddedConsole.frm</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModAVIS_Scan.bas</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY.zip</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/fire-site.sh</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/readme.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/sitemap.xml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE.zip</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT.zip</loc>
   </url>
 </urlset>
