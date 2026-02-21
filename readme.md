@@ -52,10 +52,10 @@ No corruption. No empty values. No parser drift.
 
 | Module          | Purpose |
 |-----------------|---------|
-| **CYHY_Scanner** | Deep‑scans files for AVIS metadata strings. |
-| **AVIS_Buffer**  | Dedicated memory block for raw metadata storage. |
-| **MERCG_Bridge** | Pushes parsed data into the Merc‑G visual interface. |
-| **Shutdown_Law** | Ensures only `frmNavigator` can terminate the pulse. |
+| **CYHY Scanner** | Deep‑scans files for AVIS metadata strings. |
+| **AVIS Buffer**  | Dedicated memory block for raw metadata storage. |
+| **MERCG Bridge** | Pushes parsed data into the Merc‑G visual interface. |
+| **Runtime Config** | Select/Modify your AVIS and close the MERC-G window|
 
 These components form the **CMT (Comment Metadata Transmission)** pipeline.
 
