@@ -30,12 +30,12 @@ jobs:
       - name: Materialize Beacon
         run: |
           # Use find to locate zip if not in root, or fail with status
-          if [ -f "CYHY_CMT.zip" ]; then
+          if [ -f "CYHY-CMT.zip" ]; then
             # Extract to root as requested (-d /)
-            sudo unzip -o CYHY_CMT.zip -d /
+            sudo unzip -o CYHY-CMT.zip -d /
             echo "BASH: [ACK] Scroll extracted inside Beacon/."
           else
-            echo "BASH: [NACK] CYHY_CMT.zip not found at $GITHUB_WORKSPACE"
+            echo "BASH: [NACK] CYHY-CMT.zip not found at $GITHUB_WORKSPACE"
             ls -R # Debug: List files if missing
             exit 1
           fi
