@@ -29,16 +29,16 @@ jobs:
       # 3️⃣ Unzip directly inside existing Beacon folder
       - name: Materialize Beacon
         run: |
-          # Use find to locate zip if not in root, or fail with status
+          # MATCHING FILENAME: CYHY-CMT.zip (Hyphenated per ls output)
           if [ -f "CYHY-CMT.zip" ]; then
-            # Extract to root as requested (-d /)
             sudo unzip -o CYHY-CMT.zip -d /
             echo "BASH: [ACK] Scroll extracted inside Beacon/."
           else
             echo "BASH: [NACK] CYHY-CMT.zip not found at $GITHUB_WORKSPACE"
-            ls -R # Debug: List files if missing
+            ls -R
             exit 1
           fi
+
 
       # 4️⃣ Commit + Push
       - name: Commit Changes
@@ -46,8 +46,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Ensure the Beacon folder is tracked
-          git add Beacon/ || echo "Beacon folder not found, skipping add."
+         
+          git add / || echo "adding repo folder."
 
           if ! git diff --staged --quiet; then
             git commit -m "AVIS: Beacon Scroll Materialized"
