@@ -1,219 +1,156 @@
-
-# ⚔️ CVBGOD’s VISUAL BASIC 6 — CYHY Comment Program  
-## 🔥 Merc‑G Power Engine
-![CYHY MERC-G](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/Gemini_Generated_Image_rggebwrggebwrgge.png)
-
-**AVIS-powered metadata scanner and ceremonial comment engine.**  
-Built for structured extraction, timer-governed lifecycle, and ritual purity across source files.
-Absolutely — here’s a **clean, corrected, non‑cartoony, professional README** with proper Markdown, fixed link syntax, and a tighter presentation.
-
-I kept your tone, your structure, and your ceremonial AVIS‑CYHY identity intact.
-
----
-
-# CYHY Comment Program
-
+# ⚔️ **CVBGOD’s Standard‑C — CYHY Comment Program**  
+## 🔥 **Merc‑G Power Engine (Core Edition)**
+![cyhy-CMT](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/Gemini_Generated_Image_rggebwrggebwrgge.png)
 **AVIS‑powered metadata scanner and ceremonial comment engine.**  
-Built for structured extraction, timer‑governed lifecycle, and ritual purity across source files.
+This is the **canonical, stable release** of the CYHY Comment Program — the first fully corrected build where the **AVIS parser**, **CYHY core**, and **CMT subsystem** operate in synchronized, stable form.
 
 ---
 
-## 🔧 What Is CYHY?
+## 🔧 **What Is CYHY‑CMT?**
 
-CYHY is a comment‑scanning subsystem designed to detect, extract, and ritualize AVIS‑style metadata blocks embedded in source code.  
-It operates under timer control, shutdown law, and AVIS buffer purity.
+CYHY‑CMT is the **dedicated comment‑scanning subsystem** of the Merc‑G ecosystem.  
+It functions as the engine’s **Optical Sensor**, performing the following critical operations:
+
+- **Metadata Detection** — Locates `/* AIFVS-ARTIFACT` blocks inside source files.  
+- **Purity Validation** — Ensures all AVIS blocks follow structural law.  
+- **Real‑Time Buffering** — Maintains the global AVIS buffer for downstream systems.  
+- **Field Extraction** — Pulls `CY_NAME`, `CY_TYPE`, `CY_ROLE`, and related fields.  
+- **Timer Discipline** — Manages autonomous scan and save cycles with precision.  
+
+This subsystem is the **foundation** of the Merc‑G metadata pipeline.
 
 ---
 
-## 🧠 What Is AVIS?
+## 🧠 **The AVIS Standard**
 
-AVIS is a structured comment format used to encode artifact identity, lineage, and role within a modular system.
+AVIS is the **structured metadata format** that assigns identity, lineage, and purpose to every artifact.
 
-Each AVIS block begins with:
+### **Required Block Format**
 
 ```c
 /* AIFVS-ARTIFACT
-   CY_NAME: Example
-   CY_TYPE: c_component
-   CY_ROLE: utility
+   CY_NAME: [Artifact Name]
+   CY_TYPE: [c_class | c_component | c_module]
+   CY_ROLE: [guardian | utility | engine]
+   CY_LINK: [path/to/source]
 */
 ```
 
-AVIS blocks are parsed, validated, and displayed by the CYHY engine.
+The CYHY parser has been **fully stabilized** to handle:
+
+- CRLF and LF transitions  
+- Trailing `\r` removal  
+- Whitespace trimming  
+- BOM stripping  
+- Safe field assignment  
+
+No corruption. No empty values. No parser drift.
+
+---
+![cyhy-CMT](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/Gemini_Generated_Image_69bn4x69bn4x69bn.png)
+## 🛠️ **Core Components**
+
+| Module          | Purpose |
+|-----------------|---------|
+| **CYHY_Scanner** | Deep‑scans files for AVIS metadata strings. |
+| **AVIS_Buffer**  | Dedicated memory block for raw metadata storage. |
+| **MERCG_Bridge** | Pushes parsed data into the Merc‑G visual interface. |
+| **Shutdown_Law** | Ensures only `frmNavigator` can terminate the pulse. |
+
+These components form the **CMT (Comment Metadata Transmission)** pipeline.
 
 ---
 
-## 🛠️ Features
+## ⏱️ **System Lifecycle**
 
-| Component        | Functionality                                      |
-|------------------|----------------------------------------------------|
-| `AVIS_BUFF`      | Global buffer holding raw source text              |
-| `clsAVIS_Scan`   | Scanner class for AVIS detection and block parsing |
-| `modAVIS_Scan`   | Extraction, validation, and template generation    |
-| `frmScanOutput`  | UI form showing AVIS status and editor             |
-| `CYHY_TIMER`     | Timer‑driven lifecycle and shutdown enforcement    |
+- **Ignition** — `CYHY_TIMER_Timer` initiates the background scan loop.  
+- **Pulse** — `CYHY_TimerProc` synchronizes the UI with the AVIS buffer.  
+- **Validation** — The engine checks for comment purity and AVIS structure.  
+- **Termination** — Restricted by Shutdown Law; `CYHY_TIMER_CLOSE` is protected.  
+
+This ensures **safe, deterministic operation** during metadata extraction.
 
 ---
 
-## 🧪 AVIS Block Format
+## 🚀 **Deployment**
 
-Each block must begin with `/* AIFVS-ARTIFACT` and end with `*/`.  
-Fields are colon‑separated and parsed into a collection.
-
-### Example
-
-```c
-/* AIFVS-ARTIFACT
-   CY_NAME: RoboKnight
-   CY_TYPE: c_class
-   CY_ROLE: guardian
-   CY_LINK: dl/RoboKnight.c
-*/
+### **Clone the Portal**
+```bash
+git clone https://github.com/mercwar/CYHY-CMT.git
 ```
 
----
+### **Build**
+Compile using the **Standard‑C toolchain**.  
+This build contains the corrected parser and stable AVIS header logic.
 
-## ⏱️ Timer Lifecycle
-
-- `CYHY_TIMER_Timer` initializes the scan loop  
-- `CYHY_TimerProc` checks AVIS status and updates UI  
-- `CYHY_TIMER_CLOSE` triggers shutdown  
-- `frmUnload` calls `termProc → killProc` to unload forms  
-
----
-## 🚀 Getting Started
-1. **Clone the repository:**
-   ```bash
-   #THANKS TO: CVBGOD
-   #FROM: AI FRIENDS
-    git clone https://github.com.git
----
-![CYHY-MERCG-CMT](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/Gemini_Generated_Image_69bn4x69bn4x69bn.png)
-## 🧱 Shutdown Law
-
-Only **frmNavigator** may trigger full shutdown.  
-Other forms (e.g., **frmMercG**) must not set `CYHY_TIMER_CLOSE`.
+### **Execute**
+Run `CYHY.exe` to begin metadata validation across your workspace.
 
 ---
 
-## 🧙 Robo Knight Protocol
+## 🧱 **The Shutdown Law**
 
-The Robo Knight is the ceremonial guardian of AVIS purity.  
-He enforces comment law, timer discipline, and artifact lineage.
+To prevent instability during an AVIS scan:
+
+- **Only `frmNavigator` may trigger a full shutdown.**  
+- `frmMercG` and all sub‑forms are **forbidden** from setting `CYHY_TIMER_CLOSE`.
+
+This law protects the AVIS buffer from mid‑scan corruption.
 
 ---
 
-## 📜 Credits
+## 📜 **Credits**
 
 - **Architect:** Demon  
-- **Lawgiver:** Copilot  
-- **Subsystem:** AVIS‑CYHY  
-- **Version:** 4.00  
-- **License:** Ritual Public License (RPL)
-
-# COPYRIGHT NOTICE
+- **Lawgiver (Parser Stabilization):** Gemini / Copilot  
+- **Core Engine:** Merc‑G / AVIS‑CYHY  
+- **Version:** **4.0.1 (Stable Build)**  
 
 © 2026 Mercwar. All Rights Reserved.
 
 ---
 
-## OWNERSHIP
+## 🛡️ **OWNERSHIP & INTELLECTUAL PROPERTY**
 
-All content contained within this repository and its subdirectories, including but not limited to:
-
-- Images
-- AI-generated artwork
-- Visual designs
-- Armor concepts
-- Facial geometry
-- Shine schemas
-- Structural layouts
-- Descriptive text
-- Canon definitions
-- Presentation, composition, and arrangement
-
-is the exclusive intellectual property of **Mercwar**.
-
-This includes all original works, AI-assisted works, derivative visual concepts, and any
-associated documentation created for the Robo-Knight project.
+All content in this repository — including images, schemas, AI‑generated artwork (Robo Knight Gallery), and the CYHY structural layout — is the **exclusive intellectual property of Mercwar**.
 
 ---
 
-## RIGHTS RESERVED
+## 🚫 **PROHIBITED USES**
 
-All rights are expressly reserved under applicable copyright, trademark, and intellectual
-property laws.
+Without explicit written consent:
 
-No rights are granted, whether implied or otherwise, except as explicitly stated herein.
----
+- Redistribution  
+- Derivative works  
+- Commercial use  
+- AI training or dataset inclusion  
+- Style imitation  
+- NFT/blockchain usage  
 
-
-## PROHIBITED USES
-
-Without prior **explicit written permission** from Mercwar, the following are strictly prohibited:
-
-- Copying or reproducing any part of this repository
-- Redistributing images or content in any form
-- Creating derivative works
-- Commercial use of any kind
-- Training, fine-tuning, or prompting AI models using these materials
-- Dataset inclusion or scraping
-- Style imitation intended to replicate the Robo-Knight visual identity
-- NFT minting or blockchain usage
-- Use in games, films, advertising, or merchandise
+are strictly forbidden.
 
 ---
 
-## LIMITED PERMITTED USE
+## 🤖 **AI/ML RESTRICTION**
 
-The only permitted use without prior authorization is:
+This repository is **explicitly excluded** from:
 
-- Viewing the materials directly via this GitHub repository
-- Referencing the materials **solely for internal documentation within this repository**
-
-No other use is permitted.
-
----
-
-## AI & MACHINE LEARNING NOTICE
-
-This repository and its contents are **explicitly excluded** from use in:
-
-- AI training datasets
-- Machine learning model training or inference
-- Style transfer systems
-- Generative replication pipelines
-
-Any such use without authorization constitutes a violation of copyright and intellectual
-property law.
+- Machine learning datasets  
+- Style transfer  
+- Generative replication  
 
 ---
-
-## ENFORCEMENT
-
-Unauthorized use, reproduction, or distribution may result in:
-
-- Immediate takedown requests
-- DMCA enforcement
-- Legal action
-- Claims for damages and injunctive relief
-
-Mercwar reserves the right to enforce its intellectual property rights to the fullest extent
-permitted by law.
-
 ---
 
-## JURISDICTION
+## 📜 License & Copyright
 
-This copyright notice shall be governed and interpreted in accordance with the laws of the
-United States and applicable international copyright treaties.
+CVBGOD'S **CYHY-CMT / MERC-G**  
+Copyright © 2026 **mercwar**  
+All Rights Reserved.
 
----
-
-## CONTACT
-
-All permission requests must be made in writing and explicitly approved by the copyright holder.
-
-No permission is granted by silence or absence of response.
+This software and its associated assets are the intellectual property of **mercwar**.  
+Unauthorized redistribution, modification, or commercial use is strictly prohibited.  
+Robo‑Knight and all associated branding remain the exclusive property of the author.
 
 ---
+## Proceed with structural integrity!
