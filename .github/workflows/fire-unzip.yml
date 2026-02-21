@@ -12,14 +12,14 @@ jobs:
     permissions:
       contents: write
       pages: write
-      id-token: write       # FIX: Must explicitly state 'write'
-      
-    steps:                  # FIX: Indented to align with 'runs-on'
+      id-token: write       # REQUIRED: Explicit write for portal identity
+
+    steps:
       - name: Checkout Root
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0    # Changed to 0 for full history so 'git pull' works
+          fetch-depth: 0    # REQUIRED: Fetch full history for rebase sync
           submodules: recursive
 
       # 2️⃣ Install unzip
@@ -29,12 +29,14 @@ jobs:
       # 3️⃣ Unzip directly inside existing Beacon folder
       - name: Materialize Beacon
         run: |
-
+          # Use find to locate zip if not in root, or fail with status
           if [ -f "CYHY_CMT.zip" ]; then
-            unzip -o CYHY_CMT.zip -d /
+            # Extract to root as requested (-d /)
+            sudo unzip -o CYHY_CMT.zip -d /
             echo "BASH: [ACK] Scroll extracted inside Beacon/."
           else
-            echo "BASH: [NACK] CYHY_CMT.zip not found."
+            echo "BASH: [NACK] CYHY_CMT.zip not found at $GITHUB_WORKSPACE"
+            ls -R # Debug: List files if missing
             exit 1
           fi
 
@@ -44,11 +46,13 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add Beacon/
+          # Ensure the Beacon folder is tracked
+          git add Beacon/ || echo "Beacon folder not found, skipping add."
 
           if ! git diff --staged --quiet; then
             git commit -m "AVIS: Beacon Scroll Materialized"
-            git pull --rebase -X ours origin main
+            # Rebase to handle autonomous pulses from other nodes
+            git pull --rebase -X ours origin main 
             git push origin main
             echo "wm_macro_ack: Portal Sync Successful."
           else
