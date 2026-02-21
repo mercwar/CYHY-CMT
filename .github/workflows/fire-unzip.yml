@@ -1,24 +1,26 @@
-name: FIRE-CYHY-MERC-G-UNZIP
-
+name: Fire-Gem AVIS Engine
 on:
-  workflow_run:
-    workflows: ["Fire-Gem AVIS Engine"]
-    types: [completed]
-  workflow_dispatch:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '*/15 * * * *'  # Pulse every 15 minutes [AUTONOMOUS]
+  workflow_dispatch:        # Manual override preserved
 
 jobs:
-  unzip-beacon:
+  avis-ignition:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     permissions:
       contents: write
-
-    steps:
-      # 1️⃣ Checkout Sentinel Repo (root is Sentinel)
-      - name: Checkout Repository
+      pages: write
+      id-token: write       # FIX: Must explicitly state 'write'
+      
+    steps:                  # FIX: Indented to align with 'runs-on'
+      - name: Checkout Root
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0    # Changed to 0 for full history so 'git pull' works
+          submodules: recursive
 
       # 2️⃣ Install unzip
       - name: Install unzip
