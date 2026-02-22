@@ -1,0 +1,44 @@
+﻿#include <windows.h>
+#include "resource.h"
+
+IDR_MAINMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Open &Directory...", ID_FILE_OPEN_DIR
+        MENUITEM "Open &File...",      ID_FILE_OPEN
+        MENUITEM "&Save",              ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",              ID_FILE_EXIT
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Auto Save", ID_OPTIONS_AUTOSAVE
+        MENUITEM "&TopMost Window", ID_OPTIONS_TOPMOST // <--- ADDED
+    END
+    POPUP "&AVIS"
+    BEGIN
+        MENUITEM "Open MERC-G...", ID_TOOLS_MERCG
+    END
+END
+
+IDR_MERCG_MENU MENU
+BEGIN
+    POPUP "&CYHY-SCAN"
+    BEGIN
+        MENUITEM "&Auto", ID_MENU_TOGGLE_WINTREE
+        MENUITEM "Toggle TopMost", ID_OPTIONS_TOPMOST // <--- ADDED
+    END
+END
+
+IDR_TREE_POPUP MENU
+BEGIN
+    POPUP "&CBORD"
+    BEGIN
+        MENUITEM "Open Selection",    ID_TREE_POPUP_LOADFILE
+        MENUITEM SEPARATOR
+        MENUITEM "Copy to Clipboard", ID_TREE_CLIPBOARD_COPY
+        MENUITEM "Pin Target Window", ID_TREE_TOGGLE_TOPMOST // Target the Tree HWND
+    END
+END
+// REMOVED EXTRA END

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1.0">
+	<category name="INCLUDE\mercg-editor.h">
+		<category name="Window">
+			<property name="Left" type="integer">26</property>
+			<property name="Top" type="integer">26</property>
+			<property name="Right" type="integer">986</property>
+			<property name="Bottom" type="integer">504</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="SOURCE\SOURCE\mercg-editor.c">
+		<category name="Window">
+			<property name="Left" type="integer">52</property>
+			<property name="Top" type="integer">52</property>
+			<property name="Right" type="integer">1012</property>
+			<property name="Bottom" type="integer">530</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="INCLUDE\mercg.h">
+		<category name="Window">
+			<property name="Left" type="integer">78</property>
+			<property name="Top" type="integer">78</property>
+			<property name="Right" type="integer">1038</property>
+			<property name="Bottom" type="integer">556</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="SOURCE\avis_reg.c" />
+	<category name="INCLUDE\avis_file.h">
+		<category name="Window">
+			<property name="Left" type="integer">104</property>
+			<property name="Top" type="integer">104</property>
+			<property name="Right" type="integer">1064</property>
+			<property name="Bottom" type="integer">582</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="avis_file.c">
+		<category name="Window">
+			<property name="Left" type="integer">130</property>
+			<property name="Top" type="integer">130</property>
+			<property name="Right" type="integer">1090</property>
+			<property name="Bottom" type="integer">608</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="INCLUDE\avis_core.h">
+		<category name="Window">
+			<property name="Left" type="integer">156</property>
+			<property name="Top" type="integer">156</property>
+			<property name="Right" type="integer">1116</property>
+			<property name="Bottom" type="integer">634</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="avis_core.c">
+		<category name="Window">
+			<property name="Left" type="integer">182</property>
+			<property name="Top" type="integer">182</property>
+			<property name="Right" type="integer">1142</property>
+			<property name="Bottom" type="integer">660</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="INCLUDE\auto_timer.h">
+		<category name="Window">
+			<property name="Left" type="integer">208</property>
+			<property name="Top" type="integer">208</property>
+			<property name="Right" type="integer">1168</property>
+			<property name="Bottom" type="integer">686</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="auto_timer.c">
+		<category name="Window">
+			<property name="Left" type="integer">0</property>
+			<property name="Top" type="integer">0</property>
+			<property name="Right" type="integer">960</property>
+			<property name="Bottom" type="integer">478</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="SOURCE\SOURCE\buttons_create.c">
+		<category name="Window">
+			<property name="Left" type="integer">26</property>
+			<property name="Top" type="integer">26</property>
+			<property name="Right" type="integer">986</property>
+			<property name="Bottom" type="integer">504</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="INCLUDE\cyhy-editor.h" />
+	<category name="SOURCE\avis-log.c">
+		<category name="Window">
+			<property name="Left" type="integer">52</property>
+			<property name="Top" type="integer">52</property>
+			<property name="Right" type="integer">1012</property>
+			<property name="Bottom" type="integer">530</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="INCLUDE\avis-log.h">
+		<category name="Window">
+			<property name="Left" type="integer">4294967288</property>
+			<property name="Top" type="integer">4294967265</property>
+			<property name="Right" type="integer">976</property>
+			<property name="Bottom" type="integer">646</property>
+			<property name="Maximized" type="integer">1</property>
+			<property name="Active" type="integer">1</property>
+		</category>
+	</category>
+	<category name="INCLUDE\common.h" />
+	<category name="INCLUDE\resource.h">
+		<category name="Window">
+			<property name="Left" type="integer">104</property>
+			<property name="Top" type="integer">104</property>
+			<property name="Right" type="integer">1064</property>
+			<property name="Bottom" type="integer">582</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="INCLUDE\cyhy.h">
+		<category name="Window">
+			<property name="Left" type="integer">130</property>
+			<property name="Top" type="integer">130</property>
+			<property name="Right" type="integer">1090</property>
+			<property name="Bottom" type="integer">608</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="SOURCE\cyhy.c">
+		<category name="Window">
+			<property name="Left" type="integer">156</property>
+			<property name="Top" type="integer">156</property>
+			<property name="Right" type="integer">1116</property>
+			<property name="Bottom" type="integer">634</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="SOURCE\mercg.c">
+		<category name="Window">
+			<property name="Left" type="integer">182</property>
+			<property name="Top" type="integer">182</property>
+			<property name="Right" type="integer">1142</property>
+			<property name="Bottom" type="integer">660</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="INCLUDE\mercg-wins.h">
+		<category name="Window">
+			<property name="Left" type="integer">208</property>
+			<property name="Top" type="integer">208</property>
+			<property name="Right" type="integer">1168</property>
+			<property name="Bottom" type="integer">686</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="SOURCE\mercg-wins.c">
+		<category name="Window">
+			<property name="Left" type="integer">0</property>
+			<property name="Top" type="integer">0</property>
+			<property name="Right" type="integer">960</property>
+			<property name="Bottom" type="integer">478</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="INCLUDE\avis_reg.h">
+		<category name="Window">
+			<property name="Left" type="integer">26</property>
+			<property name="Top" type="integer">26</property>
+			<property name="Right" type="integer">986</property>
+			<property name="Bottom" type="integer">504</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="SOURCE\SOURCE\buttons_proc.c">
+		<category name="Window">
+			<property name="Left" type="integer">52</property>
+			<property name="Top" type="integer">52</property>
+			<property name="Right" type="integer">1012</property>
+			<property name="Bottom" type="integer">530</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="RESOURCE\CYHY-CMT.rc">
+		<category name="Window">
+			<property name="Left" type="integer">78</property>
+			<property name="Top" type="integer">78</property>
+			<property name="Right" type="integer">1038</property>
+			<property name="Bottom" type="integer">556</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="SOURCE\template_loader.c">
+		<category name="Window">
+			<property name="Left" type="integer">104</property>
+			<property name="Top" type="integer">104</property>
+			<property name="Right" type="integer">1064</property>
+			<property name="Bottom" type="integer">582</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="INCLUDE\template_loader.h">
+		<category name="Window">
+			<property name="Left" type="integer">130</property>
+			<property name="Top" type="integer">130</property>
+			<property name="Right" type="integer">1090</property>
+			<property name="Bottom" type="integer">608</property>
+			<property name="Maximized" type="integer">0</property>
+			<property name="Active" type="integer">0</property>
+		</category>
+	</category>
+	<category name="INCLUDE\avis_defs.h" />
+</settings>

@@ -1,0 +1,67 @@
+[20:26:37] [INFO] [CORE] Environment Locked: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[20:26:37] [INFO] [CORE] Terminal System Link: Established.
+[20:26:37] [AVIS] [CORE] Host Environment: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[20:26:37] [INFO] [SCAN] Opening project directory: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[20:26:37] [AVIS] [SCAN] Crawl complete. Indexed 26 workspace files.
+[20:26:37] [INFO] [MERCG] Workspace root set to: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[20:26:37] [INFO] [MERCG] Loading Factory Default ACIT Template...
+[20:26:37] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\factory\acit.txt
+[20:26:37] [AVIS] [FIO] Physical file size: 62 bytes
+[20:26:37] [AVIS] [FIO] Successfully read 62 bytes into workspace.
+[20:26:37] [AVIS] [MERCG] Factory ACIT loaded into editor: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\factory\acit.txt
+[20:26:37] [INFO] [CORE] Project Scanner: Active.
+[20:26:37] [INFO] [CORE] Main UI Handle: 0x0000000001a81dfc
+[20:26:37] [INFO] [MERCG] MERC-G Inspector UI Components Virtualized.
+[20:26:37] [INFO] [DIAG] MERC-G Handle Synced: 00000000006815ca
+[20:26:37] [INFO] [CORE] CYHY [ROBOT] [MERC-G] READY...
+[20:26:40] [AVIS] [MERCG] Opening MERC-G Inspector...
+[20:26:40] [AVIS] [MERCG] Target Synchronized: HWND 0x00000000006815ca
+[20:26:40] [INFO] [ROBOT] Log Bot: Pipe re-established to Inspector.
+[20:26:40] [INFO] [ROBOT] Focus Capture: SUCCESS.
+[20:26:40] [INFO] [ROBOT] UI Deployment: COMPLETE.
+[20:26:44] [INFO] [MERCG] Inspector Z-Order Shift: TOPMOST
+[20:28:26] [INFO] [SCAN] Initializing File System Crawl: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[20:28:27] [INFO] [SCAN] Surgical Scan: generic.AVIS
+[20:28:27] [AVIS] [SCAN] Success: 1 Metadata points mapped.
+[20:28:29] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[20:28:29] [AVIS] [FIO] Physical file size: 150 bytes
+[20:28:29] [AVIS] [FIO] Successfully read 150 bytes into workspace.
+[20:28:29] [AVIS] [MERCG] Active Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[20:28:29] [AVIS] [NAV] ARTIFACT SYNC: generic.AVIS loaded.
+[20:28:34] [AVIS] [FIO] SAVE SUCCESS: 149 bytes committed to D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[20:28:37] [INFO] [SCAN] Surgical Scan: template.AVIS
+[20:28:37] [AVIS] [SCAN] Success: 1 Metadata points mapped.
+[20:28:38] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[20:28:38] [AVIS] [FIO] Physical file size: 103 bytes
+[20:28:38] [AVIS] [FIO] Successfully read 103 bytes into workspace.
+[20:28:38] [AVIS] [MERCG] Active Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\template.AVIS
+[20:28:38] [AVIS] [NAV] ARTIFACT SYNC: template.AVIS loaded.
+[20:29:21] [INFO] [MERCG] Inspector moved to BACKGROUND (Resident Mode).
+[20:29:22] [INFO] [UI] Toggle Auto-Scanner.
+[20:29:22] [INFO] [AUTO] Background Scanner ENABLED. Pulse rate: 500ms.
+[20:29:22] [INFO] [FIO] Loading AVIS: terminal.avs
+[20:29:22] [AVIS] [FIO] Loaded 122 bytes into workspace.
+[20:29:22] [INFO] [AUTO] AVIS detected in terminal.avs - Heartbeat active.
+[20:29:22] [AVIS] [AUTO] Pulse complete: Workspace buffer synchronized.
+[20:29:22] [INFO] [VALID] No COORD tag detected in buffer.
+[20:29:22] [FAIL] [AUTO] Validation Failed: No COORD in AVIS buffer. Stopping Timer.
+[20:29:28] [INFO] [UI] Project Tree: Item Activated.
+[20:29:28] [INFO] [UI] Workspace focus change via tree navigation.
+[20:29:28] [INFO] [EDIT] Loading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\avis_loader.asm
+[20:29:28] [AVIS] [EDIT] Buffer updated. Bytes read: 248
+[20:29:42] [INFO] [UI] Project Tree: Item Activated.
+[20:29:42] [INFO] [UI] Workspace focus change via tree navigation.
+[20:29:42] [INFO] [EDIT] Loading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\tab_01.js
+[20:29:42] [AVIS] [EDIT] Buffer updated. Bytes read: 165
+[20:29:52] [INFO] [UI] Manual Save triggered.
+[20:29:52] [INFO] [EDIT] Attempting save to: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\tab_01.js
+[20:29:52] [AVIS] [EDIT] Successfully wrote 173 bytes to disk.
+[20:29:57] [INFO] [UI] Project Tree: Item Activated.
+[20:29:57] [INFO] [UI] Workspace focus change via tree navigation.
+[20:29:57] [INFO] [EDIT] Loading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\mercg.c
+[20:29:57] [AVIS] [EDIT] Buffer updated. Bytes read: 1499
+[20:29:58] [INFO] [UI] Project Tree: Item Activated.
+[20:29:58] [INFO] [UI] Workspace focus change via tree navigation.
+[20:29:58] [INFO] [EDIT] Loading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\tab_01.js
+[20:29:58] [AVIS] [EDIT] Buffer updated. Bytes read: 173
+[20:30:07] [INFO] [CORE] Shutting down AVIS Terminal.
