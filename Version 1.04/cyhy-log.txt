@@ -1,0 +1,39 @@
+[21:31:48] [INFO] [CORE] Environment Locked: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[21:31:48] [INFO] [CORE] Terminal System Link: Established.
+[21:31:48] [AVIS] [CORE] Host Environment: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[21:31:48] [INFO] [SCAN] Opening project directory: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[21:31:48] [AVIS] [SCAN] Crawl complete. Indexed 28 workspace files.
+[21:31:48] [INFO] [MERCG] Workspace root set to: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[21:31:48] [INFO] [MERCG] Loading Factory Default ACIT Template...
+[21:31:48] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\factory\acit.txt
+[21:31:48] [AVIS] [FIO] Physical file size: 62 bytes
+[21:31:48] [AVIS] [FIO] Successfully read 62 bytes into workspace.
+[21:31:48] [AVIS] [MERCG] Factory ACIT loaded into editor: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\factory\acit.txt
+[21:31:48] [INFO] [CORE] Project Scanner: Active.
+[21:31:48] [INFO] [CORE] Main UI Handle: 0x0000000000442152
+[21:31:48] [INFO] [MERCG] MERC-G Inspector UI Components Virtualized.
+[21:31:48] [INFO] [DIAG] MERC-G Handle Synced: 0000000000a22112
+[21:31:48] [INFO] [CORE] CYHY [ROBOT] [MERC-G] READY...
+[21:31:53] [AVIS] [MERCG] Opening MERC-G Inspector...
+[21:31:53] [AVIS] [MERCG] Target Synchronized: HWND 0x0000000000a22112
+[21:31:53] [INFO] [ROBOT] Log Bot: Pipe re-established to Inspector.
+[21:31:53] [INFO] [ROBOT] Focus Capture: SUCCESS.
+[21:31:53] [INFO] [ROBOT] UI Deployment: COMPLETE.
+[21:31:58] [INFO] [SCAN] Initializing File System Crawl: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT
+[21:31:59] [INFO] [SCAN] Surgical Scan: generic.AVIS
+[21:31:59] [AVIS] [SCAN] Success: 1 Metadata points mapped.
+[21:32:00] [INFO] [FIO] Reading artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[21:32:00] [AVIS] [FIO] Physical file size: 155 bytes
+[21:32:00] [AVIS] [FIO] Successfully read 155 bytes into workspace.
+[21:32:00] [AVIS] [MERCG] Active Artifact: D:\msys64\home\Demonizer\Sentinel\CYHY-CMT\generic.AVIS
+[21:32:00] [AVIS] [NAV] ARTIFACT SYNC: generic.AVIS loaded.
+[21:32:03] [INFO] [MERCG] Inspector moved to BACKGROUND (Resident Mode).
+[21:32:06] [INFO] [UI] Toggle Auto-Scanner.
+[21:32:06] [INFO] [AUTO] Background Scanner ENABLED. Pulse rate: 500ms.
+[21:32:06] [INFO] [FIO] Loading AVIS: terminal.avs
+[21:32:06] [AVIS] [FIO] Loaded 122 bytes into workspace.
+[21:32:06] [INFO] [AUTO] AVIS detected in terminal.avs - Heartbeat active.
+[21:32:06] [AVIS] [AUTO] Pulse complete: Workspace buffer synchronized.
+[21:32:06] [INFO] [VALID] No COORD tag detected in buffer.
+[21:32:06] [FAIL] [AUTO] Validation Failed: No COORD in AVIS buffer. Stopping Timer.
+[21:32:09] [INFO] [CORE] Shutting down AVIS Terminal.
