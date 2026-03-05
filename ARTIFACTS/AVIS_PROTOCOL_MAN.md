@@ -1,4 +1,4 @@
-# 📄 AVIS_PROTOCOL.md — System Identity Statute
+# 📄 AVIS_PROTOCOL_MAN.md — System Identity Statute
 
 ➡️ [Back to README](README.md)
 
