@@ -1,27 +1,21 @@
+# 3️⃣ **_DL Version** — Data Lake Compressed Placeholder Template
 
-
-# 2️⃣ **_BOT Version** — Robot-Optimized Placeholder Template
+```text id="dl-avis"
+#AVIS_LAW_IDENTITY:<DISK_VOLUME>|<DRIVE_LETTER>|<FILE_SYSTEM>|<PROJECT_NAME>|<PROJECT_CLASS>|<REPOSITORY>|<PROJECT_OWNER>|<ENGINE_LAYER>|<BUILD_SYSTEM>|<APPLICATION_ROLE>
+#AVIS_LAW_FILE_IDENTITY:<FILE_NAME>|<VERSION>|<LANGUAGE>|<MODULE_TYPE>|<ARTIFACT_CLASS>|<MAGIC_SIGNATURE>|<HASH_METHOD>|<FILE_GUID>|<PARENT_GUID>
+#AVIS_LAW_DISK:<ABSOLUTE_PATH>|<RELATIVE_PATH>|<WORKSPACE_ROOT>|<VOLUME_NAME>|<DRIVE_LETTER>
+#AVIS_LAW_SECURITY:<HASH_VALIDATION>|<GUID_VALIDATION>|<PATH_NORMALIZATION>|<METADATA_VERIFICATION>
+#AVIS_LAW_SNAPSHOT_CREATE:<STATUS>|<VERIFICATION_STATUS>|<SNAPSHOT_GUID>
+#AVIS_LAW_LINEAGE:<PROJECT_NAME>|<MODULE>|<SUBMODULE>|<ARTIFACT>
+```
 
 ```
-#AVIS_LAW_IDENTITY [AVIS-LAW-IDENTITY] Disk Volume:<DISK_VOLUME>; Drive Letter:<DRIVE_LETTER>; File System:<FILE_SYSTEM>; Project Name:<PROJECT_NAME>; Project Class:<PROJECT_CLASS>; Repository:<REPOSITORY>; Project Owner:<PROJECT_OWNER>; Engine Layer:<ENGINE_LAYER>; Build System:<BUILD_SYSTEM>; Application Role:<APPLICATION_ROLE>
+✅ Features of _DL version (placeholders)
 
-#AVIS_LAW_FILE_IDENTITY [AVIS-LAW-FILE-ID] File Name:<FILE_NAME>; Version:<VERSION>; Language:<LANGUAGE>; Module Type:<MODULE_TYPE>; Artifact Class:<ARTIFACT_CLASS>; Magic Signature:<MAGIC_SIGNATURE>; Hash Method:<HASH_METHOD>; File GUID:<FILE_GUID>; Parent GUID:<PARENT_GUID>
-
-#AVIS_LAW_DISK [AVIS-LAW-DISK] Absolute Path:<ABSOLUTE_PATH>; Relative Path:<RELATIVE_PATH>; Workspace Root:<WORKSPACE_ROOT>; Volume Name:<VOLUME_NAME>; Drive Letter:<DRIVE_LETTER>
-
-#AVIS_LAW_SECURITY [AVIS-LAW-SECURITY] Hash Validation:<HASH_VALIDATION>; GUID Validation:<GUID_VALIDATION>; Path Normalization:<PATH_NORMALIZATION>; Metadata Verification:<METADATA_VERIFICATION>
-
-#AVIS_LAW_SNAPSHOT_CREATE [AVIS-LAW-SNAPSHOT-OPERATIONS] Status:<STATUS>; Verification:<VERIFICATION_STATUS>; Snapshot GUID:<SNAPSHOT_GUID>
-
-#AVIS_LAW_LINEAGE [AVIS-LAW-LINEAGE] ROOT PROJECT-><PROJECT_NAME>-><MODULE>-><SUBMODULE>-><ARTIFACT>
-```
-```
-✅ Features of _BOT version (corrected)
-
-1. **All fields are placeholders only**.
-2. Each LAW block remains **one line** for fast robot scanning.
-3. Maintains **`#AVIS_LAW_*`** and **`[AVIS-LAW-*]`** tags for compliance.
-4. No prefilled drives, GUIDs, or project names — fully template-ready.
-5. Perfect for automated ingestion pipelines or AI parsing.
+1. **Single-line `|`-separated format** for high-speed ingestion.
+2. **All values are placeholders** — no prefilled paths, drives, GUIDs, or project names.
+3. Fully preserves **`#AVIS_LAW_*`** identifiers for compliance.
+4. Ideal for **bulk AI or data lake processing**.
+5. Robots can populate this with live data automatically.
 
 ```
