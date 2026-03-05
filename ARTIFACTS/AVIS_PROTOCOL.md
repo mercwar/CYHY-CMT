@@ -1,4 +1,6 @@
-📄 AVIS_PROTOCOL.md — System Identity Statute➡️ Back to README
+📄 AVIS_PROTOCOL.md — System Identity Statute
+
+➡️ [Back to README](Readme.md)
 ------------------------------
 ⚖️ THE AVIS LAW: DEFINITION
 All comment blocks labeled with #AVIS_LAW_<SECTION> and [AVIS-LAW-<SECTION>] are legally recognized by the AVIS engine and robots for parsing, identity verification, and AI-assisted operations.
