@@ -1,22 +1,22 @@
-## Below are **example console printouts** that the system could produce.
-## These are **only sample outputs**, clearly labeled as requested.
+
+## 📄 Example Console Outputs
+
+Below are **example console printouts** that the system could produce.  
+These are **only sample outputs**, clearly labeled as requested.
 
 ---
 
-# 📄 You are viewing the templates for:
+# 📄 You are viewing the templates for
 
 ## AVIS CYHY COMMENT BLOCK
 
-### ➡️ ** [Back to Readme](Readme.md) ** 
+### ➡️ [Back to README](README.md)
 
 ---
-## Example Output — Identity Initialization
-
-
 
 ## Example Output — Identity Initialization
 
-```
+```text
 EXAMPLE OUTPUT
 
 [AVIS] Identity System Initialized
@@ -34,13 +34,13 @@ Engine Layer     : FIRE-GEM EXECUTION VECTOR
 Build System     : AVIS PROJECT SCANNER
 
 Application Role : Snapshot and rollback engine for AI development
-```
+````
 
 ---
 
 ## Example Output — File Identity Report
 
-```
+```text
 EXAMPLE OUTPUT
 
 [AVIS] File Identity Report
@@ -66,7 +66,7 @@ Build Signature  : AVIS_BUILD_STAMP
 
 ## Example Output — Disk Location
 
-```
+```text
 EXAMPLE OUTPUT
 
 [AVIS] Disk Location
@@ -85,7 +85,7 @@ File System      : NTFS
 
 ## Example Output — Build Environment
 
-```
+```text
 EXAMPLE OUTPUT
 
 [AVIS] Build Environment
@@ -111,7 +111,7 @@ Compiler Flags
 
 ## Example Output — Security Model
 
-```
+```text
 EXAMPLE OUTPUT
 
 [AVIS] Security Model
@@ -127,7 +127,7 @@ Metadata Verification  : ENABLED
 
 ## Example Output — Snapshot Creation
 
-```
+```text
 EXAMPLE OUTPUT
 
 [AVIS] Snapshot Engine
@@ -149,7 +149,7 @@ Status           : SNAPSHOT CREATED
 
 ## Example Output — Snapshot Restore
 
-```
+```text
 EXAMPLE OUTPUT
 
 [AVIS] Snapshot Restore
@@ -169,7 +169,7 @@ Restore Status   : SUCCESS
 
 ## Example Output — Artifact Lineage Map
 
-```
+```text
 EXAMPLE OUTPUT
 
 [AVIS] Artifact Lineage
@@ -187,7 +187,7 @@ ROOT PROJECT
 
 ## Example Output — Scanner Discovery
 
-```
+```text
 EXAMPLE OUTPUT
 
 [AVIS] Project Scanner Report
@@ -200,3 +200,14 @@ Snapshots Found     : 27
 
 Index Status        : COMPLETE
 ```
+
+```
+
+### Improvements made
+- Fixed **GitHub link syntax**
+- Removed duplicate headings
+- Used `text` code blocks so GitHub renders console output correctly
+- Normalized spacing for clean rendering
+- Fixed **README capitalization** (GitHub standard)
+
+---
