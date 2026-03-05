@@ -1,11 +1,20 @@
-#AVIS_LAW_IDENTITY [AVIS-LAW-IDENTITY] Disk Volume:Project_Source; Drive Letter:B:\; File System:NTFS; Project Name:AVIS CORE; Project Class:CYBORG EXECUTION ARCHITECTURE; Repository:MERCWAR/AVIS; Project Owner:CVBGOD; Engine Layer:FIRE-GEM EXECUTION VECTOR; Build System:AVIS PROJECT SCANNER; Application Role:Snapshot and rollback engine for AI development
+# 📄 AVIS_PROTOCOL_DL.md — Data Lake Compressed Template
 
-#AVIS_LAW_FILE_IDENTITY [AVIS-LAW-FILE-ID] File Name:AVIS-FVS-SNAPSHOT.c; Version:1.0.4; Language:C; Module Type:CORE ENGINE MODULE; Artifact Class:SNAPSHOT_ENGINE; Magic Signature:AVIS-FVS; Hash Method:SHA256; File GUID:A8C5F1E2-4C3F-4B21-9A61-AVISFVS000104
+```text
+#AVIS_LAW_IDENTITY:<DISK_VOLUME>|<DRIVE_LETTER>|<FILE_SYSTEM>|<PROJECT_NAME>|<PROJECT_CLASS>|<REPOSITORY>|<PROJECT_OWNER>|<ENGINE_LAYER>|<BUILD_SYSTEM>|<APPLICATION_ROLE>
+#AVIS_LAW_FILE_IDENTITY:<FILE_NAME>|<VERSION>|<LANGUAGE>|<MODULE_TYPE>|<ARTIFACT_CLASS>|<MAGIC_SIGNATURE>|<HASH_METHOD>|<FILE_GUID>|<PARENT_GUID>
+#AVIS_LAW_DISK:<ABSOLUTE_PATH>|<RELATIVE_PATH>|<WORKSPACE_ROOT>|<VOLUME_NAME>|<DRIVE_LETTER>
+#AVIS_LAW_SECURITY:<HASH_VALIDATION>|<GUID_VALIDATION>|<PATH_NORMALIZATION>|<METADATA_VERIFICATION>
+#AVIS_LAW_SNAPSHOT_CREATE:<STATUS>|<VERIFICATION_STATUS>|<SNAPSHOT_GUID>
+#AVIS_LAW_LINEAGE:<PROJECT_NAME>-><MODULE>-><SUBMODULE>-><ARTIFACT>
+```
 
-#AVIS_LAW_DISK [AVIS-LAW-DISK] Absolute Path:B:\AVIS\ENGINE\FVS\AVIS-FVS-SNAPSHOT.c; Relative Path:/engine/fvs/AVIS-FVS-SNAPSHOT.c; Workspace Root:/AVIS/; Volume Name:Project_Source; Drive Letter:B:\
+---
+```
+### ✅ Features of _DL version:
 
-#AVIS_LAW_SECURITY [AVIS-LAW-SECURITY] Hash Validation:ENABLED; GUID Validation:ENABLED; Path Normalization:ENABLED; Metadata Verification:ENABLED
-
-#AVIS_LAW_SNAPSHOT_CREATE #AVIS_LAW_SNAPSHOT_RESTORE [AVIS-LAW-SNAPSHOT-OPERATIONS] Status:VERIFIED; Verification:HASH OK; Snapshot GUID:6C32A8B4-19F0-42E3-9E91-AB12CD3456EF
-
-#AVIS_LAW_LINEAGE [AVIS-LAW-LINEAGE] ROOT PROJECT->AVIS CORE->ENGINE->FVS->SNAPSHOT ENGINE->AVIS-FVS-SNAPSHOT.c
+1. **Single-line key-value fields** separated by `|` for ultra-fast ingestion.
+2. **Placeholders only**, allowing automated pipelines or robots to populate live data.
+3. Preserves **`#AVIS_LAW_*`** identifiers for compliance scanning.
+4. Ideal for **data lake or bulk AI ingestion**, minimal parsing overhead.
+```
