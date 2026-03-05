@@ -1,370 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/fire-end.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AVIS_PRJ_SCAN.BAT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/fire-site.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/.github/workflows/fire-unzip.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/.github/workflows/fire-site.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT-104.zip</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/readme.md</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT-103.zip</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModPopupMenu.bas</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT.zip</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmAIFVSConsole.frx</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/CYHY-CMT.tag</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsAVIS_Scan.cls</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/RESOURCE/CYHY-CMT.rc</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_COSOLE_VB6GOD.7z</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/tab_01.js</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.vbp</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/terminal.avs</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/FRMNavigator.frm</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/avis_core.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modMERCG.bas</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/avis_reg.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD_vb6.cls</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/mercg.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmMercG.frm</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/fire-gem.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.vbw</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/buttons_create.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/filelist_G_PROGRAMS.txt</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/avis_file.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modEmbeddedConsole.bas</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/template_loader.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.exe</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/mercg-editor.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/VB6-COPY.bat</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/avis-log.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsAVISFocusScanner.cls</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/common.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modConCleaner.bas</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/auto_timer.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/FRMNavigator.frx</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/avis_defs.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/filelist_G_PROGRAMS.BAT</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/buttons_proc.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CY_ENGINE.log</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/resource.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsClipControls.cls</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/cyhy-editor.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_DOSShell.cls</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/cyhy.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/INCLUDE/mercg-wins.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modCVBGOD_vb6.bas</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/CYHY-CMT.ppj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE.vbp</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/avis_core.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmEmbeddedConsole.frm</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/CYHY-CMT.ppx</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AVIS_DRIVE</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/cyhy-win.asm</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE.vbw</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/auto_timer.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmScanOutput.frm</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/cyhy-log.txt</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmUnload.frm</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/avis_file.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AVIS_LOG.txt</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/CYHY-CMT.res</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmAIFVSConsole.frm</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/template_loader.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD_CONSOLE.exe.manifest</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/buttons_create.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/App</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/cyhy-editor.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModNAVPOPUP.bas</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/avis_core.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModAVIS_Scan.bas</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/buttons_proc.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/SOURCE/cyhy-editor.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/avis_reg.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/SOURCE/mercg-editor.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/avis-log.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/SOURCE/buttons_create.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/cyhy.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/SOURCE/buttons_proc.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/mercg-editor.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/BLOCK/cyhy-editor-block-1.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/auto_timer.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/template_loader.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/mercg-wins.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/cyhy.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/mercg.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/avis_reg.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/output/avis_file.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/avis-log.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/template.AVIS</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/mercg.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/factory/acit.txt</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/cyhy-win.o</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/cyhy.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/cyhy-log.txt</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/mercg.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/fire-gem.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/main.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/buttons_proc.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/generic.AVIS</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/resource.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/CYHY-CMT.exe</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/mercg.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/template_loader.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/fire-gem.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/mercg-wins.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/avis_reg.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/avis-log.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/template_loader.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/BLOCK/cyhy-editor-block-1.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/auto_timer.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/cyhy.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/buttons_create.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/mercg.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/common.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/avis_reg.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/cyhy-editor.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/template_loader.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/avis_defs.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/SOURCE/buttons_create.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/mercg-editor.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/SOURCE/buttons_proc.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/avis_core.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/SOURCE/cyhy-editor.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/avis-log.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201.04/SOURCE/SOURCE/mercg-editor.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/cyhy.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/ARTIFACTS/Readme.md</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/avis_file.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE.zip</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/CYHY-CMT.tag</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/cyhy.exe</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/CYHY-CMT.ppx</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/CYHY-CMT.tag</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/RESOURCE/CYHY-CMT.rc</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/RESOURCE/CYHY-CMT.rc</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/cyhy-win.asm</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/tab_01.js</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/generic.AVIS</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/avis_core.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/template_loader.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/auto_timer.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/avis_file.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/template_loader.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/cyhy.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/template_loader.o</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/mercg-win.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/CYHY-CMT.ppj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/template.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/cyhy.exe</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/CYHY-CMT.exe</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/main.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/auto_timer.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/avis-log.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/avis_core.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/cyhy.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/template_loader.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/cyhy-editor.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/mercg-editor.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/avis_file.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/buttons_create.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/avis_reg.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/mercg.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/buttons_proc.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/CYHY-CMT.res</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/mercg-win.o</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/tab_01.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/avis_core.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/build.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/mercg.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/terminal.avs</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/avis_loader.asm</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/SOURCE/cyhy-editor.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/SOURCE/mercg-editor.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/SOURCE/buttons_create.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/SOURCE/buttons_proc.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/BLOCK/cyhy-editor-block-1.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/template_loader.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/cyhy.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/avis_reg.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/mercg-wins.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/avis-log.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/mercg.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/cyhy-log.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/buttons_proc.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/resource.h</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/avis_reg.h</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/mercg.h</loc>
@@ -373,150 +223,486 @@
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/fire-gem.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/avis_reg.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/template_loader.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/mercg-wins.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/auto_timer.h</loc>
-  </url>
-  <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/buttons_create.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/common.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/cyhy-editor.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/avis_defs.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/mercg-editor.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/avis_core.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/avis-log.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/cyhy.h</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/avis_file.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/CYHY-CMT.tag</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/template_loader.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/CYHY-CMT.ppx</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/mercg-editor.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/RESOURCE/CYHY-CMT.rc</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/avis-log.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/generic.AVIS</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/common.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/template_loader.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/auto_timer.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/auto_timer.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/avis_defs.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/factory/acit.txt</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/buttons_proc.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/avis_file.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/resource.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/cyhy.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/cyhy-editor.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/cyhy.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/INCLUDE/mercg-wins.h</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/CYHY-CMT.ppj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/template.AVIS</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/avis_core.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/cyhy.exe</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/CYHY-CMT.ppx</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/CYHY-CMT.exe</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/auto_timer.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/main.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/cyhy-log.txt</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/auto_timer.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/avis-log.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/avis_core.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/cyhy.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/template_loader.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/cyhy-editor.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/mercg-editor.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/avis_file.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/buttons_create.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/avis_reg.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/mercg.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/mercg-wins.obj</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/buttons_proc.obj</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/avis_file.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/CYHY-CMT.res</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/tab_01.js</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/template_loader.obj</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/avis_core.c</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/buttons_create.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/cyhy-editor.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/avis_core.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/buttons_proc.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/avis_reg.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/avis-log.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/cyhy.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/mercg-editor.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/auto_timer.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/mercg-wins.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/mercg.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/output/avis_file.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/template.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/factory/acit.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/cyhy.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/mercg.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY.zip</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/main.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/readme.md</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/generic.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/CYHY-CMT.exe</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/template_loader.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/mercg-wins.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/avis-log.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/BLOCK/cyhy-editor-block-1.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/cyhy.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/mercg.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/avis_reg.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/template_loader.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/SOURCE/buttons_create.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/SOURCE/buttons_proc.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/SOURCE/cyhy-editor.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/Version%201/SOURCE/SOURCE/mercg-editor.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AVIS_PRJ_SCAN.BAT</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/sitemap.xml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE.zip</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/.github/workflows/fire-site.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT.zip</loc>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/.github/workflows/fire-unzip.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/fire-end.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/fire-gem.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/cyhy-win.o</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/cyhy.exe</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/CYHY-CMT.tag</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/RESOURCE/CYHY-CMT.rc</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/mercg-win.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/tab_01.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/terminal.avs</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/build.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/avis_core.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/avis_reg.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/mercg.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/fire-gem.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/buttons_create.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/avis_file.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/template_loader.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/mercg-editor.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/avis-log.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/common.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/auto_timer.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/avis_defs.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/buttons_proc.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/resource.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/cyhy-editor.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/INCLUDE/cyhy.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/CYHY-CMT.ppj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/avis_core.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/mercg-win.o</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/CYHY-CMT.ppx</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/cyhy-win.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/template_loader.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/auto_timer.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/cyhy-log.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/avis_file.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/template_loader.o</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/CYHY-CMT.res</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/template_loader.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/buttons_create.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/cyhy-editor.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/avis_core.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/buttons_proc.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/avis_reg.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/avis-log.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/cyhy.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/mercg-editor.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/auto_timer.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/mercg.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/output/avis_file.obj</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/template.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/cyhy.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/mercg.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/main.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/generic.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/avis_loader.asm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/CYHY-CMT.exe</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/template_loader.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/avis-log.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/BLOCK/cyhy-editor-block-1.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/cyhy.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/mercg.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/avis_reg.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/template_loader.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/SOURCE/buttons_create.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/SOURCE/buttons_proc.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/SOURCE/cyhy-editor.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT/SOURCE/SOURCE/mercg-editor.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.vbw</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modMERCG.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/FRMNavigator.frx</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmUnload.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmAIFVSConsole.frx</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModNAVPOPUP.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/filelist_G_PROGRAMS.BAT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_COSOLE_VB6GOD.7z</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModAVIS_Scan.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsAVISFocusScanner.cls</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modConCleaner.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD_vb6.cls</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/VB6-COPY.bat</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmMercG.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CVBGOD_CONSOLE.exe.manifest</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/App</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.exe</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AVIS_DRIVE</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/FRMNavigator.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE.vbw</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/filelist_G_PROGRAMS.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/CY_ENGINE.log</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE.vbp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modCVBGOD_vb6.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_CONSOLE_VB6GOD.vbp</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmScanOutput.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AIFVS_DOSShell.cls</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/AVIS_LOG.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/ModPopupMenu.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmAIFVSConsole.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/modEmbeddedConsole.bas</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsClipControls.cls</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/clsAVIS_Scan.cls</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE_VB6GOD/frmEmbeddedConsole.frm</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY-CMT-104.zip</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/CYHY.zip</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/fire-site.sh</loc>
   </url>
 </urlset>
