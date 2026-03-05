@@ -1,17 +1,14 @@
-
-## 📄 Example Console Outputs
-
-Below are **example console printouts** that the system could produce.  
-These are **only sample outputs**, clearly labeled as requested.
-
----
-
 # 📄 You are viewing the templates for
 
 ## AVIS CYHY COMMENT BLOCK
 
 ### ➡️ [Back to README](README.md)
 
+---
+## 📄 Example Console Outputs
+
+Below are **example console printouts** that the system could produce.  
+These are **only sample outputs**, clearly labeled as requested.
 ---
 
 ## Example Output — Identity Initialization
