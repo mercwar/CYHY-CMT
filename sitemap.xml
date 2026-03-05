@@ -199,9 +199,6 @@
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/ARTIFACTS/SRC/avis_snapshot.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/ARTIFACTS/SRC/examples/identity_demo.c</loc>
-  </url>
-  <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/ARTIFACTS/SRC/avis_identity.c</loc>
   </url>
   <url>
@@ -218,6 +215,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/ARTIFACTS/sitemap.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CYHY-CMT/blob/main/ARTIFACTS/examples/identity_demo.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CYHY-CMT/blob/main/AIFVS_COSOLE.zip</loc>
