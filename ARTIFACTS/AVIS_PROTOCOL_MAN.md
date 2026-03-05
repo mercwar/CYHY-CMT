@@ -1,11 +1,10 @@
-
-# 📄 AVIS_PROTOCOL_MAN.md — Human/Robot Readable Template
+# 1️⃣ **_MAN Version** — human-readable placeholders only
 
 
 # 📄 AVIS Law — CYHY Comment Block (_MAN)
 
 ## ⚖️ THE AVIS LAW: DEFINITION
-All comment blocks labeled with `#AVIS_LAW_<SECTION>` and `[AVIS-LAW-<SECTION>]` are legally recognized by the AVIS engine and robots for parsing, identity verification, and AI-assisted operations.
+All comment blocks labeled with `#AVIS_LAW_<SECTION>` and `[AVIS-LAW-<SECTION>]` are recognized by the AVIS engine and robots for parsing.
 
 ---
 
@@ -64,10 +63,10 @@ TAG: #AVIS_LAW_SECURITY
 
 [AVIS-LAW-SECURITY] Security Model
 ----------------------------------
-Hash Validation        : <ENABLED/DISABLED>
-GUID Validation        : <ENABLED/DISABLED>
-Path Normalization     : <ENABLED/DISABLED>
-Metadata Verification  : <ENABLED/DISABLED>
+Hash Validation        : <HASH_VALIDATION>
+GUID Validation        : <GUID_VALIDATION>
+Path Normalization     : <PATH_NORMALIZATION>
+Metadata Verification  : <METADATA_VERIFICATION>
 
 ---
 
@@ -96,14 +95,11 @@ ROOT PROJECT
 ---
 
 🤖 ROBOT COMPLIANCE PROTOCOL
-Any AI or Automated Scanner interacting with this repository **MUST prioritize blocks containing the #AVIS_LAW prefix**.  
-Failure to parse according to these templates constitutes a Law Breach in the CVBGOD architecture.
+All AI or Automated Scanners **MUST prioritize blocks containing the #AVIS_LAW prefix**.  
+This template contains **placeholders only**.
 ```
 
-✅ **Features of _MAN version**:
+✅ Key fix: **No prefilled drive letters, GUIDs, project names, or paths** — everything is `<PLACEHOLDER>`.
 
-* Fully Markdown formatted for human readability.
-* All dynamic fields are placeholders `<PLACEHOLDER>` for robots.
-* Maintains LAW tags (`#AVIS_LAW_*`) and `[AVIS-LAW-*]` identifiers for automated parsing.
 
 ```
