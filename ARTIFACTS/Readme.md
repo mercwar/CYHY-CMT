@@ -13,7 +13,7 @@
 
 The full system output examples are documented in:
 
-➡️ **[SPEC.md](SPEC.md)**
+➡️ **[SPEC.md](SPEC.MD)**
 # 🚀 Overview
 
 The **AVIS Snapshot Engine** is a **forensic-grade file identity and snapshot management system** designed for advanced development environments.
