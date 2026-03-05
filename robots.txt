@@ -1,8 +1,9 @@
-User-agent: *
-Allow: /
+#===========================================================
+# AVIS PROJECT — ROBOTS.TXT
+# Standard configuration for all crawlers
+#===========================================================
 
-# ---------------------------------------------------------------------------
-# [CYHY-CMT]
-# Sitemap locator
-Sitemap: https://mercwar.github.io/CYHY-CMT/sitemap.xml
-# ---------------------------------------------------------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://github.io
