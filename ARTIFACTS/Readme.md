@@ -9,7 +9,11 @@
 **Version:** 1.0.4
 
 ---
+## 📄 Specification
 
+The full system output examples are documented in:
+
+➡️ **[SPEC.md](SPEC.md)**
 # 🚀 Overview
 
 The **AVIS Snapshot Engine** is a **forensic-grade file identity and snapshot management system** designed for advanced development environments.
