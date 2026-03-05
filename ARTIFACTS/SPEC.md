@@ -11,31 +11,45 @@ These are **only sample outputs**, clearly labeled as requested.
 **All outputs are tagged with the AVIS LAW for robot recognition.**
 
 ---
-
+```text
 ## LAW: Identity Initialization
 #AVIS_LAW_IDENTITY
-
-```text
-EXAMPLE OUTPUT
-[AVIS-LAW-IDENTITY] Identity System Initialized
-----------------------------------
-Disk Volume      : Project_Source
-Drive Letter     : B:\
-File System      : NTFS
-
-Project Name     : AVIS CORE
-Project Class    : CYBORG EXECUTION ARCHITECTURE
-Repository       : MERCWAR/AVIS
-Project Owner    : CVBGOD
-
-Engine Layer     : FIRE-GEM EXECUTION VECTOR
-Build System     : AVIS PROJECT SCANNER
-
-Application Role : Snapshot and rollback engine for AI development
-````
-
+/**
+ * #AVIS_LAW_IDENTITY
+ * [AVIS-LAW-IDENTITY] Identity System Initialized
+ * ----------------------------------------------
+ * Project Name     : AVIS CORE
+ * Project Class    : CYBORG EXECUTION ARCHITECTURE
+ * Project Owner    : CVBGOD
+ * 
+ * #AVIS_LAW_FILE_IDENTITY
+ * [AVIS-LAW-FILE-ID] File Identity Report
+ * ----------------------------------------------
+ * File Name        : <file name>.*
+ * Version          : 1.0.4
+ * Module Type      : CORE ENGINE MODULE
+ * Artifact Class   : standarc c
+ * Magic Signature  : AVIS-FVS
+ * File GUID        : A8C5F1E2-4C3F-4B21-9A61-AVISFVS000104
+ * 
+ * #AVIS_LAW_DISK
+ * [AVIS-LAW-DISK] Disk Location
+ * ----------------------------------------------
+ * Avis coord root path    : <root drive>:\<root path>
+ * Avis coord file path    : <coord root path>\<file path>
+ * Avis coord path File    : <coord file path>\*.*
+ * Volume Name             : <Project_Source>
+ * #AVIS_LAW_SECURITY
+ * [AVIS-LAW-SECURITY] Security Model
+ * ----------------------------------------------
+ * Metadata Verification : ENABLED
+ * Hash Validation       : ENABLED
+ * 
+ * ⚖️ AVIS Law compliant for robot recognition.
+ */
+```
 ---
-
+```
 ## LAW: File Identity Report
 
 #AVIS_LAW_FILE_IDENTITY
