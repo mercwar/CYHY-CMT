@@ -9,12 +9,14 @@
 **Version:** 1.0.4
 
 ---
-## 📄 Specification
 
-The full system output examples are documented in:
-<object data="SPEC.MD" type="text/markdown" width="100%" height="800">
-</object>
-➡️ **[SPEC.MD](SPEC.MD)**
+# 📄 Specification
+
+## AVIS CYHY COMMENT BLOCK
+
+### ➡️ **[AVIS CYHY COMMENT BLOCK TEMPLATES](SPEC.MD)** 
+
+---
 # 🚀 Overview
 
 The **AVIS Snapshot Engine** is a **forensic-grade file identity and snapshot management system** designed for advanced development environments.
