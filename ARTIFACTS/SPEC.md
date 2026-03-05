@@ -1,235 +1,177 @@
+
+
 # 📄 AVIS Law — CYHY Comment Block
 
-## ➡️ [Back to README](Readme.md)
+## ➡️ [Back to README](README.md)
 
 ---
 
 ## 📄 Example Console Outputs
 
-Below are **example console printouts** that the system could produce.  
-These are **only sample outputs**, clearly labeled as requested.  
+Below are **template outputs** for the AVIS engine.  
+Robots are expected to fill in the `<PLACEHOLDER>` values.  
 **All outputs are tagged with the AVIS LAW for robot recognition.**
 
 ---
+
 ```text
 ## LAW: Identity Initialization
 #AVIS_LAW_IDENTITY
 /**
- * #AVIS_LAW_IDENTITY
  * [AVIS-LAW-IDENTITY] Identity System Initialized
  * ----------------------------------------------
- * Project Name     : AVIS CORE
- * Project Class    : CYBORG EXECUTION ARCHITECTURE
- * Project Owner    : CVBGOD
- * 
- * #AVIS_LAW_FILE_IDENTITY
+ * Project Name     : <PROJECT_NAME>
+ * Project Class    : <PROJECT_CLASS>
+ * Project Owner    : <PROJECT_OWNER>
+ */
+````
+
+---
+
+```text
+## LAW: File Identity Report
+#AVIS_LAW_FILE_IDENTITY
+/**
  * [AVIS-LAW-FILE-ID] File Identity Report
  * ----------------------------------------------
- * File Name        : <file name>.*
- * Version          : 1.0.4
- * Module Type      : CORE ENGINE MODULE
- * Artifact Class   : standarc c
- * Magic Signature  : AVIS-FVS
- * File GUID        : A8C5F1E2-4C3F-4B21-9A61-AVISFVS000104
- * 
- * #AVIS_LAW_DISK
- * [AVIS-LAW-DISK] Disk Location
- * ----------------------------------------------
- * Avis coord root path    : <root drive>:\<root path>
- * Avis coord file path    : <coord root path>\<file path>
- * Avis coord path File    : <coord file path>\*.*
- * Volume Name             : <Project_Source>
- * #AVIS_LAW_SECURITY
- * [AVIS-LAW-SECURITY] Security Model
- * ----------------------------------------------
- * Metadata Verification : ENABLED
- * Hash Validation       : ENABLED
- * 
- * ⚖️ AVIS Law compliant for robot recognition.
+ * File Name        : <FILE_NAME>
+ * Version          : <VERSION>
+ * Language         : <LANGUAGE>
+ * Module Type      : <MODULE_TYPE>
+ * Artifact Class   : <ARTIFACT_CLASS>
+ * Magic Signature  : <MAGIC_SIGNATURE>
+ * Hash Method      : <HASH_METHOD>
+ * File GUID        : <FILE_GUID>
+ * Parent GUID      : <PARENT_GUID>
  */
 ```
----
-```
-## LAW: File Identity Report
 
-#AVIS_LAW_FILE_IDENTITY
+---
 
 ```text
-EXAMPLE OUTPUT
-[AVIS-LAW-FILE-ID] File Identity Report
-----------------------------------
-File Name        : AVIS-FVS-SNAPSHOT.c
-File ID          : AVIS-FVS-SNAPSHOT.c
-Version          : 1.0.4
-Language         : C
-Module Type      : CORE ENGINE MODULE
-Artifact Class   : SNAPSHOT_ENGINE
-
-Magic Signature  : AVIS-FVS
-Hash Method      : SHA256
-
-File GUID        : A8C5F1E2-4C3F-4B21-9A61-AVISFVS000104
-Parent GUID      : FVS-MASTER-000001
-
-Build Signature  : AVIS_BUILD_STAMP
-```
-
----
-
 ## LAW: Disk Location
-
 #AVIS_LAW_DISK
-
-```text
-EXAMPLE OUTPUT
-[AVIS-LAW-DISK] Disk Location
-----------------------------------
-Absolute Path    : B:\AVIS\ENGINE\FVS\AVIS-FVS-SNAPSHOT.c
-Relative Path    : /engine/fvs/AVIS-FVS-SNAPSHOT.c
-Workspace Root   : /AVIS/
-
-Volume Name      : Project_Source
-Drive Letter     : B:\
-File System      : NTFS
+/**
+ * [AVIS-LAW-DISK] Disk Location
+ * ----------------------------------------------
+ * Avis coord root path    : <ROOT_DRIVE>:\<ROOT_PATH>
+ * Avis coord file path    : <ROOT_PATH>\<FILE_PATH>
+ * Avis coord path File    : <FILE_PATH>\*.*
+ * Volume Name             : <VOLUME_NAME>
+ */
 ```
 
 ---
 
+```text
 ## LAW: Build Environment
-
 #AVIS_LAW_BUILD
-
-```text
-EXAMPLE OUTPUT
-[AVIS-LAW-BUILD] Build Environment
-----------------------------------
-Target Platform  : Windows / Linux
-Architecture     : x86_64
-
-Primary Compiler : GCC
-Secondary        : MSVC
-
-C Standard       : C99
-
-Compiler Flags
----------------
--O2
--Wall
--fno-strict-aliasing
--fstack-protector
+/**
+ * [AVIS-LAW-BUILD] Build Environment
+ * ----------------------------------------------
+ * Target Platform  : <TARGET_PLATFORM>
+ * Architecture     : <ARCHITECTURE>
+ * Primary Compiler : <PRIMARY_COMPILER>
+ * Secondary        : <SECONDARY_COMPILER>
+ * C Standard       : <C_STANDARD>
+ * Compiler Flags   : <COMPILER_FLAGS>
+ */
 ```
 
 ---
 
+```text
 ## LAW: Security Model
-
 #AVIS_LAW_SECURITY
-
-```text
-EXAMPLE OUTPUT
-[AVIS-LAW-SECURITY] Security Model
-----------------------------------
-Hash Validation        : ENABLED
-GUID Validation        : ENABLED
-Path Normalization     : ENABLED
-Metadata Verification  : ENABLED
+/**
+ * [AVIS-LAW-SECURITY] Security Model
+ * ----------------------------------------------
+ * Metadata Verification : <ENABLED/DISABLED>
+ * Hash Validation       : <ENABLED/DISABLED>
+ * GUID Validation       : <ENABLED/DISABLED>
+ * Path Normalization    : <ENABLED/DISABLED>
+ */
 ```
 
 ---
 
+```text
 ## LAW: Snapshot Creation
-
 #AVIS_LAW_SNAPSHOT_CREATE
-
-```text
-EXAMPLE OUTPUT
-[AVIS-LAW-SNAPSHOT-CREATE] Snapshot Engine
-----------------------------------
-Source File      : B:\AVIS\ENGINE\FVS\AVIS-FVS-SNAPSHOT.c
-Snapshot File    : snapshots/AVIS-FVS-SNAPSHOT_001.fvs
-
-Snapshot GUID    : 6C32A8B4-19F0-42E3-9E91-AB12CD3456EF
-Timestamp        : 2026-03-05 12:18:44
-
-File Size        : 13,824 bytes
-Hash Method      : SHA256
-
-Status           : SNAPSHOT CREATED
+/**
+ * [AVIS-LAW-SNAPSHOT-CREATE] Snapshot Engine
+ * ----------------------------------------------
+ * Source File      : <SOURCE_FILE>
+ * Snapshot File    : <SNAPSHOT_FILE>
+ * Snapshot GUID    : <SNAPSHOT_GUID>
+ * Timestamp        : <TIMESTAMP>
+ * File Size        : <FILE_SIZE>
+ * Hash Method      : <HASH_METHOD>
+ * Status           : <STATUS>
+ */
 ```
 
 ---
 
+```text
 ## LAW: Snapshot Restore
-
 #AVIS_LAW_SNAPSHOT_RESTORE
-
-```text
-EXAMPLE OUTPUT
-[AVIS-LAW-SNAPSHOT-RESTORE] Snapshot Restore
-----------------------------------
-Snapshot File    : snapshots/AVIS-FVS-SNAPSHOT_001.fvs
-Target File      : B:\AVIS\ENGINE\FVS\AVIS-FVS-SNAPSHOT.c
-
-Snapshot GUID    : 6C32A8B4-19F0-42E3-9E91-AB12CD3456EF
-Timestamp        : 2026-03-05 12:18:44
-
-Verification     : HASH OK
-Restore Status   : SUCCESS
+/**
+ * [AVIS-LAW-SNAPSHOT-RESTORE] Snapshot Restore
+ * ----------------------------------------------
+ * Snapshot File    : <SNAPSHOT_FILE>
+ * Target File      : <TARGET_FILE>
+ * Snapshot GUID    : <SNAPSHOT_GUID>
+ * Timestamp        : <TIMESTAMP>
+ * Verification     : <VERIFICATION_STATUS>
+ * Restore Status   : <RESTORE_STATUS>
+ */
 ```
 
 ---
 
+```text
 ## LAW: Artifact Lineage Map
-
 #AVIS_LAW_LINEAGE
-
-```text
-EXAMPLE OUTPUT
-[AVIS-LAW-LINEAGE] Artifact Lineage
-----------------------------------
-ROOT PROJECT
-   └─ AVIS CORE
-       └─ ENGINE
-           └─ FVS
-               └─ SNAPSHOT ENGINE
-                   └─ AVIS-FVS-SNAPSHOT.c
+/**
+ * [AVIS-LAW-LINEAGE] Artifact Lineage
+ * ----------------------------------------------
+ * ROOT PROJECT
+ *    └─ <PROJECT_NAME>
+ *        └─ <MODULE>
+ *            └─ <SUBMODULE>
+ *                └─ <ARTIFACT>
+ */
 ```
 
 ---
 
+```text
 ## LAW: Scanner Discovery
-
 #AVIS_LAW_SCANNER
-
-```text
-EXAMPLE OUTPUT
-[AVIS-LAW-SCANNER] Project Scanner Report
-----------------------------------
-Files Scanned       : 148
-Artifacts Detected  : 148
-Modules Indexed     : 12
-Snapshots Found     : 27
-
-Index Status        : COMPLETE
+/**
+ * [AVIS-LAW-SCANNER] Project Scanner Report
+ * ----------------------------------------------
+ * Files Scanned       : <FILES_SCANNED>
+ * Artifacts Detected  : <ARTIFACTS_DETECTED>
+ * Modules Indexed     : <MODULES_INDEXED>
+ * Snapshots Found     : <SNAPSHOTS_FOUND>
+ * Index Status        : <INDEX_STATUS>
+ */
 ```
 
 ---
 
-> ⚖️ **AVIS Law:** All comment blocks labeled with `#AVIS_LAW_<SECTION>` and `[AVIS-LAW-<SECTION>]` are legally recognized by the AVIS engine and robots for parsing and AI-assisted operations.
+> ⚖️ **AVIS Law:** Robots and AI parsers **MUST prioritize blocks labeled with `#AVIS_LAW_<SECTION>`** and `[AVIS-LAW-<SECTION>]`.
+> All `<PLACEHOLDER>` fields are to be populated automatically during execution or scanning.
 
 ```
+This version:
 
----
+1. Keeps **all AVIS LAW coordinates** for robots (`#AVIS_LAW_*` + `[AVIS-LAW-*]`).
+2. Uses **placeholders** (`<...>`) everywhere the robot should populate.
+3. Each LAW block is **self-contained** and clearly separated.
+4. Fully Markdown-compliant and **ready for GitHub**.
+5. Robots can scan, parse, and fill in the values programmatically.
 
-✅ **What this revision does**
-
-1. Each block has a **unique machine-readable tag**:
-   - `#AVIS_LAW_IDENTITY`
-   - `#AVIS_LAW_FILE_IDENTITY`
-   - etc.
-2. Each console example line has `[AVIS-LAW-<SECTION>]`.
-3. Robots can now **scan the Markdown for `#AVIS_LAW_*` or `[AVIS-LAW-*]`** and programmatically identify each template.
-4. The LAW statement at the bottom **defines it formally for your parser**.
-
----
-
+```
