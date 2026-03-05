@@ -1,10 +1,24 @@
-# 1️⃣ **_MAN Version** — human-readable placeholders only
 
+# 2️⃣ _MAN File (human-readable, clean)
 
-# 📄 AVIS Law — CYHY Comment Block (_MAN)
+# This gives you:
+```
+1. Human template for reading 
+2. Standard template for robot ACK
+```
+---
+
+## 🤖 ROBOT COMPLIANCE PROTOCOL
+#### All AI or Automated Scanners MUST prioritize blocks containing `#AVIS_LAW_*`.  
+#### This template contains **placeholders only** for human-readable testing.
+
+---
+```markdown
+# 📄 AVIS_PROTOCOL_MAN — Human-Readable Template
 
 ## ⚖️ THE AVIS LAW: DEFINITION
-All comment blocks labeled with `#AVIS_LAW_<SECTION>` and `[AVIS-LAW-<SECTION>]` are recognized by the AVIS engine and robots for parsing.
+All comment blocks labeled `#AVIS_LAW_<SECTION>` and `[AVIS-LAW-<SECTION>]` are recognized by the AVIS engine and robots.  
+Placeholders are shown for demonstration.
 
 ---
 
@@ -91,15 +105,5 @@ ROOT PROJECT
        └─ <MODULE>
            └─ <SUBMODULE>
                └─ <ARTIFACT>
-
----
-
-🤖 ROBOT COMPLIANCE PROTOCOL
-All AI or Automated Scanners **MUST prioritize blocks containing the #AVIS_LAW prefix**.  
-This template contains **placeholders only**.
-```
-
-✅ Key fix: **No prefilled drive letters, GUIDs, project names, or paths** — everything is `<PLACEHOLDER>`.
-
 
 ```
