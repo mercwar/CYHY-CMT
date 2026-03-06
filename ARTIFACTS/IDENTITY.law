@@ -1,0 +1,8 @@
+<AVIS-LAW-IDENTITY>
+{
+  "entity": "CYHY-CMT",
+  "protocol_compliance": "AVIS_PROTOCOL.md",
+  "status": "Initialized",
+  "repository_path": "github.com/mercwar/CYHY-CMT/ARTIFACTS"
+}
+</AVIS-LAW-IDENTITY>
