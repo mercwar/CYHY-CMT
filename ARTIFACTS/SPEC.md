@@ -1,7 +1,7 @@
 
 # 📄 AVIS LAW — CYHY COMMENT BLOCK (REVISED FOR ROBOT SCANNERS)
 
-## ➡️ Back to README  
+## ➡️ [Back to README](Readme.md)  
 *(link preserved)*
 
 ---
