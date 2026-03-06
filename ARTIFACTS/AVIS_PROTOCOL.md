@@ -1,17 +1,24 @@
-Perfect — let’s simplify and make it **clean, standard, and human-readable**. I’ll provide:
+## 🤖 ROBOT COMPLIANCE PROTOCOL
+---
+     1. Prioritization
+          All AI or Automated Scanners **MUST** prioritize blocks containing `#AVIS_LAW_*`.  
 
-1. **Standard AVIS Law template** — machine & robot-friendly, placeholders only.
-2. **New _MAN file** — human-readable, structured, easy to read, placeholders only.
+     2. Placeholders
+          This template contains **placeholders only** to allow human-readable study and understanding.  
 
+     3. Purpose
+         3.1 Standard Template
+               Provides a **machine-readable template** for robots.  
+
+         3.2 Human Reference
+               Provides a **human-readable reference** for developers and auditors.  
 ---
 
-# 1️⃣ **Standard AVIS Law Template** (for robot/automation)
-
-```text
-# 📄 AVIS_PROTOCOL_STANDARD — System Identity Statute
-# Placeholders only; for automated parsing by robots
-# All LAW blocks use #AVIS_LAW_* and [AVIS-LAW-*] tags
-
+# 1️⃣ SPECS: ROBOT
+##### 📄 AVIS_PROTOCOL_STANDARD — System Identity Statute
+###### Placeholders only; for automated parsing by robots
+###### All LAW blocks use #AVIS_LAW_* and [AVIS-LAW-*] tags
+```
 #AVIS_LAW_IDENTITY [AVIS-LAW-IDENTITY] Disk Volume:<DISK_VOLUME>; Drive Letter:<DRIVE_LETTER>; File System:<FILE_SYSTEM>; Project Name:<PROJECT_NAME>; Project Class:<PROJECT_CLASS>; Repository:<REPOSITORY>; Project Owner:<PROJECT_OWNER>; Engine Layer:<ENGINE_LAYER>; Build System:<BUILD_SYSTEM>; Application Role:<APPLICATION_ROLE>
 
 #AVIS_LAW_FILE_IDENTITY [AVIS-LAW-FILE-ID] File Name:<FILE_NAME>; Version:<VERSION>; Language:<LANGUAGE>; Module Type:<MODULE_TYPE>; Artifact Class:<ARTIFACT_CLASS>; Magic Signature:<MAGIC_SIGNATURE>; Hash Method:<HASH_METHOD>; File GUID:<FILE_GUID>; Parent GUID:<PARENT_GUID>
@@ -23,17 +30,11 @@ Perfect — let’s simplify and make it **clean, standard, and human-readable**
 #AVIS_LAW_SNAPSHOT_CREATE [AVIS-LAW-SNAPSHOT-OPERATIONS] Status:<STATUS>; Verification:<VERIFICATION_STATUS>; Snapshot GUID:<SNAPSHOT_GUID>
 
 #AVIS_LAW_LINEAGE [AVIS-LAW-LINEAGE] ROOT PROJECT-><PROJECT_NAME>-><MODULE>-><SUBMODULE>-><ARTIFACT>
+
 ```
-
-✅ **Notes**:
-
-* Fully machine-readable, single-line format per LAW block.
-* No prefilled data, perfect for automated ingestion.
-* Tags are preserved for compliance.
-
 ---
 
-# 2️⃣ **New _MAN File** (human-readable, clean)
+# 2️⃣ SPECS: MAN
 
 ```markdown
 # 📄 AVIS_PROTOCOL_MAN — Human-Readable Template
@@ -128,22 +129,12 @@ ROOT PROJECT
            └─ <SUBMODULE>
                └─ <ARTIFACT>
 
----
-
-🤖 ROBOT COMPLIANCE PROTOCOL
-All AI or Automated Scanners MUST prioritize blocks containing `#AVIS_LAW_*`.  
-This template contains **placeholders only** for human-readable testing.
 ```
+---
+✅ **Notes**:
+
+* Fully machine-readable, single-line format per LAW block.
+* No prefilled data, perfect for automated ingestion.
+* Tags are preserved for compliance.
 
 ---
-
-This gives you:
-
-1. **Standard template** for robots (*standard*)
-2. **Readable human template** (*MAN*)
-
-Both are now **clean, placeholder-only**, and follow the AVIS LAW specification.
-
-I can now also generate **the _BOT and _DL versions** in the same style if you want — fully aligned with this new standard.
-
-Do you want me to do that next?
