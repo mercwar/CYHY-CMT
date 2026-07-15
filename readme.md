@@ -1,3 +1,4 @@
+#### ⚔️ **CVBGOD’s Standard‑C Avis Editor**  
 <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
 <img 
     src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
@@ -8,8 +9,8 @@
 
 ---
 
-# ⚔️ **CVBGOD’s Standard‑C — CYHY Comment Program**  
-## 🔥 **Merc‑G Power Engine (Core Edition)**
+
+#### 🔥 **Merc‑G Power Engine (Core Edition)**
 ![cyhy-CMT](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%203/Gemini_Generated_Image_rggebwrggebwrgge.png)
 **AVIS‑powered metadata scanner and ceremonial comment engine.**  
 This is the **canonical, stable release** of the CYHY Comment Program — the first fully corrected build where the **AVIS parser**, **CYHY core**, and **CMT subsystem** operate in synchronized, stable form.
@@ -163,4 +164,5 @@ Unauthorized redistribution, modification, or commercial use is strictly prohibi
 Robo‑Knight and all associated branding remain the exclusive property of the author.
 
 ---
-## Proceed with structural integrity!
+
+##### "<i>I am CVBGOD, and I have given it to you</i>!"
